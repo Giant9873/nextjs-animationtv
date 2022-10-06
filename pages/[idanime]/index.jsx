@@ -30,7 +30,10 @@ const AnimePage = ({ success, error, anime }) => {
       <main className="container">
       <div className="row">
         <div className="col-md-4 col-sm-6 col-12">
-          <img className="cover" src={anime.imageurl} alt="1"></img><br />
+          <div className="">
+            <Image className="" src={anime.imageurl} alt="1" width="100%" height="140" layout="responsive" /> <br />
+          </div>
+
         </div>
         <div className="col-md-8 col-sm-6 col-12">
 
@@ -55,7 +58,7 @@ const AnimePage = ({ success, error, anime }) => {
       <div className="container separator"><br /><br /><br /><br />
           <div className="row">
             <div className="col-md-8 col-sm-12 col-12">
-            <img className="listimg" width={32} height={35} alt="list" src="/img/listdownload.png" />
+            <Image className="listimg" width={35} height={35} alt="list" src="/img/listdownload.png" />
             <h1 className="textlist">{anime.titulo} - Enlaces de Descarga - {anime.capitulos} :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
@@ -95,155 +98,155 @@ const AnimePage = ({ success, error, anime }) => {
             </div>
             <br /><br /><br />
 
-            <img className="listimg" width={35} height={35} alt="list" src="/img/listvideo.png" />
+            <Image className="listimg" width={35} height={35} alt="list" src="/img/listvideo.png" />
             <h1 className="textlist">{anime.titulo} - Lista de Capitulos - {anime.capitulos} :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-12">
-                <div className="card"> <img  alt=" " src={anime.imagecap1} />
+                <div className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap1} />
                   <h2 className="fontcap"> CAP 1 </h2> <a href={anime.online1} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap2} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap2} />
                   <h2 className="fontcap"> CAP 2 </h2> <a href={anime.online2} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap3} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap3} />
                   <h2 className="fontcap"> CAP 3 </h2> <a href={anime.online3} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap4} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap4} />
                   <h2 className="fontcap"> CAP 4 </h2> <a href={anime.online4} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap5} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap5} />
                   <h2 className="fontcap"> CAP 5 </h2> <a href={anime.online5} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap6} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap6} />
                   <h2 className="fontcap"> CAP 6 </h2> <a href={anime.online6} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap7} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap7} />
                   <h2 className="fontcap"> CAP 7 </h2> <a href={anime.online7} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap8} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap8} />
                   <h2 className="fontcap"> CAP 8 </h2> <a href={anime.online8} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap9} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap9} />
                   <h2 className="fontcap"> CAP 9 </h2> <a href={anime.online9} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap10} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap10} />
                   <h2 className="fontcap"> CAP 10 </h2> <a href={anime.online10} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap11} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap11} />
                   <h2 className="fontcap"> CAP 11 </h2> <a href={anime.online11} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap12} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap12} />
                   <h2 className="fontcap"> CAP 12 </h2> <a href={anime.online12} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap13} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap13} />
                   <h2 className="fontcap"> CAP 13 </h2> <a href={anime.online13} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap14} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap14} />
                   <h2 className="fontcap"> CAP 14 </h2> <a href={anime.online14} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap15} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap15} />
                   <h2 className="fontcap"> CAP 15 </h2> <a href={anime.online15} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap16} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap16} />
                   <h2 className="fontcap"> CAP 16 </h2> <a href={anime.online16} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap17} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap17} />
                   <h2 className="fontcap"> CAP 17 </h2> <a href={anime.online17} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap18} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap18} />
                   <h2 className="fontcap"> CAP 18 </h2> <a href={anime.online18} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap19} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap19} />
                   <h2 className="fontcap"> CAP 19 </h2> <a href={anime.online19} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap20} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap20} />
                   <h2 className="fontcap"> CAP 20 </h2> <a href={anime.online20} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap21} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap21} />
                   <h2 className="fontcap"> CAP 21 </h2> <a href={anime.online21} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap22} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap22} />
                   <h2 className="fontcap"> CAP 22 </h2> <a href={anime.online22} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap23} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap23} />
                   <h2 className="fontcap"> CAP 23 </h2> <a href={anime.online23} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap24} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap24} />
                   <h2 className="fontcap"> CAP 24 </h2> <a href={anime.online24} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <img alt=" " src={anime.imagecap25} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap25} />
                   <h2 className="fontcap"> CAP 25 </h2> <a href={anime.online25} rel="noopener noreferrer" target="_blank">
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
@@ -256,13 +259,13 @@ const AnimePage = ({ success, error, anime }) => {
             <div className="col-md-3 col-sm-12 col-12">
               <h2 className=""> También te puede interesar :</h2><br />
               <div className="card" >
-                <img className="crop1" src={anime.imgreco1} width={350} height={515} alt="1"></img>
+                <Image className="card-img-top crop1" src={anime.imgreco1} width={600} height={600} alt="1" />
                 <div className="card-body">
                   <h4 className="card-title center">{anime.namereco1}</h4>
                 </div>
               </div>
               <div className="card" >
-                <img className="crop1" src={anime.imgreco2} width={350} height={515} alt="1"></img>
+                <Image className="card-img-top crop1" src={anime.imgreco2} width={600} height={600} alt="1" />
                 <div className="card-body">
                   <h4 className="card-title center">{anime.namereco2}</h4>
                 </div>

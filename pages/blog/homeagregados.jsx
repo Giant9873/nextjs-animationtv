@@ -22,14 +22,8 @@ const MENU_LIST = [
       href: "/blog",
       url: "/img/home/lycoris recoil 2.jpg",
       año: "2022"
-  },,{
-      titulo: "Marvel's Hit-Monkey",
-      tipo: "occidental",
-      href: "/blog",
-      url: "/img/home/hit monkey 2.jpg",
-      año: "2021"
-  },,{
-      titulo: "Tomodachi Game",
+  },{
+      titulo: "Tochi Game",
       tipo: "anime",
       href: "/blog",
       url: "/img/home/tomadachi game - poster2.jpg",
@@ -37,13 +31,13 @@ const MENU_LIST = [
   },
 ]
 
-const Homecard = () => {
+const Homeagregados = () => {
   return(
       <div className="row">
       {MENU_LIST.map((menu, idx) => (
-        <Link href={menu.href}>
+        <Link href={menu.href} key={menu.titulo}>
         <div className="col-md-3 col-sm-3" >
-          <div key={menu.titulo} >
+          <div  >
             <div className="card" >
               <Image className="card-img-top" src={menu.url} width={600} height={400} alt="1"></Image>
               <div className="card-body">
@@ -59,4 +53,4 @@ const Homecard = () => {
   )
 }
 
-export default Homecard;
+export default Homeagregados;
