@@ -11,8 +11,8 @@ export default function Home({ animes }) {
   console.log(animes);
   return  (
     <div>
-      <Layout title="Lista de Películas | Animation TV"
-      description="Lista de Películas Animadas en Español y subtituladas">
+      <Layout title="Lista de Animes | Animation TV"
+      description="Lista de Series Animadas en Español y Subtituladas">
         <main className="container separator">
           <h1>Lista de Animes </h1>
           <div className="row separator">
@@ -35,7 +35,7 @@ export default function Home({ animes }) {
               ))
           }
           </div>
-          
+
         </main>
 
       </Layout>
