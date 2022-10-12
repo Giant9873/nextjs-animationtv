@@ -3,13 +3,29 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
-      id: 12,
-      titulo: "Mob Psycho 100 III",
+      id: 16,
+      titulo: "Chainsaw Man",
       tipo: "anime",
-      href: "/6341e1a528f84e5af3593027",
-      url: "/img/poster/mob p 100 s3 - poster.jpg",
+      href: "/634624f8ae0f72b4da36cc2b",
+      url: "/img/poster/chainsaw man - poster.jpg",
       año: "2022",
-      capitulos: "01/??"
+      capitulos: "01/12"
+  },{
+      id: 15,
+      titulo: "Blue Lock",
+      tipo: "anime",
+      href: "/63460455ae0f72b4da36cc24",
+      url: "/img/poster/blue lock - poster.jpg",
+      año: "2022",
+      capitulos: "01/24"
+  },{
+      id: 13,
+      titulo: "Boku no Hero Academia S6",
+      tipo: "anime",
+      href: "/63444fee334cf9fb31f6222e",
+      url: "/img/poster/boku no hero s6 - poster.jpg",
+      año: "2022",
+      capitulos: "02/25"
   },{
       id: 11,
       titulo: "Spy x Family S2",
@@ -18,6 +34,22 @@ const MENU_LIST = [
       url: "/img/poster/spy x family s2 - poster.jpg",
       año: "2022",
       capitulos: "02/13"
+  },{
+      id: 14,
+      titulo: "Beast Tamer",
+      tipo: "anime",
+      href: "/6345db70ae0f72b4da36cbff",
+      url: "/img/poster/beast tamer - poster.jpg",
+      año: "2022",
+      capitulos: "02/13"
+  },{
+      id: 12,
+      titulo: "Mob Psycho 100 III",
+      tipo: "anime",
+      href: "/6341e1a528f84e5af3593027",
+      url: "/img/poster/mob p 100 s3 - poster.jpg",
+      año: "2022",
+      capitulos: "01/??"
   },{
       id: 10,
       titulo: "Classroom of the Elite II",
@@ -107,8 +139,8 @@ const Homecard = () => {
       {MENU_LIST.map((menu, idx) => (
         <Link href={menu.href} key={menu.id}>
         <div className="col-md-3 col-sm-3" >
-            <div className="card" >
-              <Image className="card-img-top crop2" src={menu.url} width={600} height={400} alt="1"></Image>
+            <div className="card noborder" >
+              <Image className="card-img-top crop2 " src={menu.url} width={600} height={400} alt="1"></Image>
               <div className="card-body">
                 <h5 className="card-title">{menu.titulo} - {menu.capitulos}</h5>
                 <p className="card-text">{menu.tipo} - {menu.año}</p>

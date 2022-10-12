@@ -10,6 +10,7 @@ export default function Home() {
     <Layout
       title="Animation TV"
       description="Lo mejor de la animación en una sola web"
+      imageog="/img/homepri.jpg"
     >
       <div className="topspace">
         <div className="container">
