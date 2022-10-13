@@ -3,6 +3,14 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 12,
+      titulo: "Mob Psycho 100 III",
+      tipo: "anime",
+      href: "/6341e1a528f84e5af3593027",
+      url: "/img/poster/mob p 100 s3 - poster.jpg",
+      año: "2022",
+      capitulos: "02/??"
+  },{
       id: 16,
       titulo: "Chainsaw Man",
       tipo: "anime",
@@ -42,14 +50,6 @@ const MENU_LIST = [
       url: "/img/poster/beast tamer - poster.jpg",
       año: "2022",
       capitulos: "02/13"
-  },{
-      id: 12,
-      titulo: "Mob Psycho 100 III",
-      tipo: "anime",
-      href: "/6341e1a528f84e5af3593027",
-      url: "/img/poster/mob p 100 s3 - poster.jpg",
-      año: "2022",
-      capitulos: "01/??"
   },{
       id: 10,
       titulo: "Classroom of the Elite II",
