@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/6341e1a528f84e5af3593027",
       url: "/img/poster/mob p 100 s3 - poster.jpg",
       año: "2022",
-      capitulos: "02/??"
+      capitulos: "03/??"
   },{
       id: 16,
       titulo: "Chainsaw Man",
@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/634624f8ae0f72b4da36cc2b",
       url: "/img/poster/chainsaw man - poster.jpg",
       año: "2022",
-      capitulos: "01/12"
+      capitulos: "02/12"
   },{
       id: 15,
       titulo: "Blue Lock",
@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/63460455ae0f72b4da36cc24",
       url: "/img/poster/blue lock - poster.jpg",
       año: "2022",
-      capitulos: "01/24"
+      capitulos: "02/24"
   },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/63444fee334cf9fb31f6222e",
       url: "/img/poster/boku no hero s6 - poster.jpg",
       año: "2022",
-      capitulos: "02/25"
+      capitulos: "03/25"
   },{
       id: 11,
       titulo: "Spy x Family S2",
@@ -41,7 +41,7 @@ const MENU_LIST = [
       href: "/633b6161d381cf953bbf16a0",
       url: "/img/poster/spy x family s2 - poster.jpg",
       año: "2022",
-      capitulos: "02/13"
+      capitulos: "03/13"
   },{
       id: 14,
       titulo: "Beast Tamer",
@@ -49,7 +49,7 @@ const MENU_LIST = [
       href: "/6345db70ae0f72b4da36cbff",
       url: "/img/poster/beast tamer - poster.jpg",
       año: "2022",
-      capitulos: "02/13"
+      capitulos: "03/13"
   },{
       id: 10,
       titulo: "Classroom of the Elite II",
@@ -95,7 +95,7 @@ const MENU_LIST = [
       titulo: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
       tipo: "anime",
       href: "/632b854f4180c5cd4",
-      url: "/img/home/tomadachi game - poster2.jpg",
+      url: "/img/poster/danmachi s4 - poster.jpg",
       año: "2022",
       capitulos: "09/11"
   },{
@@ -111,7 +111,7 @@ const MENU_LIST = [
       titulo: "Summertime Render",
       tipo: "anime",
       href: "/632b854f4180c5cd4",
-      url: "/img/home/summertime render home.jpg",
+      url: "/img/poster/summer timerender - poster.jpg",
       año: "2022",
       capitulos: "22/25"
   },{
@@ -119,7 +119,7 @@ const MENU_LIST = [
       titulo: "Ao Ashi",
       tipo: "anime",
       href: "/632b854f4180c5cd4",
-      url: "/img/home/tomadachi game - poster2.jpg",
+      url: "/img/poster/ao ashi - poster.jpg",
       año: "2022",
       capitulos: "22/24"
   },{
@@ -127,9 +127,9 @@ const MENU_LIST = [
       titulo: "Tomodadadchi Game",
       tipo: "anime",
       href: "/632b854f4180c5cd4",
-      url: "/img/home/tomadachi game - poster2.jpg",
+      url: "/img/poster/tomadachi game - poster.jpg",
       año: "2022",
-      capitulos: "22/24"
+      capitulos: "12/12"
   }
 ];
 
