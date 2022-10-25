@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/63460455ae0f72b4da36cc24",
       url: "/img/poster/blue lock - poster.jpg",
       año: "2022",
-      capitulos: "02/24"
+      capitulos: "03/24"
   },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
@@ -33,15 +33,15 @@ const MENU_LIST = [
       href: "/63444fee334cf9fb31f6222e",
       url: "/img/poster/boku no hero s6 - poster.jpg",
       año: "2022",
-      capitulos: "03/25"
+      capitulos: "04/25"
   },{
       id: 11,
-      titulo: "Spy x Family S2",
+      titulo: "SPY x FAMILY S2",
       tipo: "anime",
       href: "/633b6161d381cf953bbf16a0",
       url: "/img/poster/spy x family s2 - poster.jpg",
       año: "2022",
-      capitulos: "03/13"
+      capitulos: "04/13"
   },{
       id: 14,
       titulo: "Beast Tamer",
@@ -49,7 +49,15 @@ const MENU_LIST = [
       href: "/6345db70ae0f72b4da36cbff",
       url: "/img/poster/beast tamer - poster.jpg",
       año: "2022",
-      capitulos: "03/13"
+      capitulos: "04/13"
+  },{
+      id: 17,
+      titulo: "Kage no Jitsuryokusha ni Naritakute!",
+      tipo: "anime",
+      href: "/635733fb3f6d348d451bf4a8",
+      url: "/img/poster/kage no naritakute - poster.jpg",
+      año: "2022",
+      capitulos: "03/20"
   },{
       id: 10,
       titulo: "Classroom of the Elite II",

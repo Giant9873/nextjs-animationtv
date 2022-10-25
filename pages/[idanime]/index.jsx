@@ -62,36 +62,44 @@ const AnimePage = ({ success, error, anime }) => {
             <h1 className="textlist">{anime.titulo} - Enlaces de Descarga - {anime.capitulos} :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
+                <h3>Part. 01</h3><br />
                 <a href={anime.links1x1} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-warning btn-lg"> {anime.servidor1} </button> </a> <br /><br />
               </div>
               <div className="col-md-3 col-sm-6 col-6">
+                <h3>Part. 02</h3><br />
                 <a href={anime.links1x2} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-warning btn-lg"> {anime.servidor1} </button> </a>
               </div>
               <div className="col-md-3 col-sm-6 col-6">
+                <h3>Part. 03</h3><br />
                 <a href={anime.links1x3} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-warning btn-lg"> {anime.servidor1} </button> </a>
               </div>
               <div className="col-md-3 col-sm-6 col-6">
+                <h3>Part. 04</h3><br />
                 <a href={anime.links1x4} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-warning btn-lg"> {anime.servidor1} </button> </a>
               </div>
             </div><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
+                <h3>Part. 01</h3><br />
                 <a href={anime.links2x1} rel="noopener noreferrer" target="_blank">
                 <button type="button" className="btn btn-danger btn-lg center"> {anime.servidor2} </button> </a> <br /><br />
               </div>
               <div className="col-md-3 col-sm-6 col-6">
+                <h3>Part. 02</h3><br />
                 <a href={anime.links2x2} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-danger btn-lg center"> {anime.servidor2} </button> </a>
               </div>
               <div className="col-md-3 col-sm-6 col-6">
+                <h3>Part. 03</h3><br />
                 <a href={anime.links2x3} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-danger btn-lg center"> {anime.servidor2} </button> </a>
               </div>
               <div className="col-md-3 col-sm-6 col-6 ">
+                <h3>Part. 04</h3><br />
                 <a href={anime.links2x4} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-danger btn-lg center"> {anime.servidor2} </button> </a>
               </div>
