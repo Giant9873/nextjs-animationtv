@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/6341e1a528f84e5af3593027",
       url: "/img/poster/mob p 100 s3 - poster.jpg",
       año: "2022",
-      capitulos: "03/??"
+      capitulos: "04/??"
   },{
       id: 16,
       titulo: "Chainsaw Man",
@@ -17,39 +17,7 @@ const MENU_LIST = [
       href: "/634624f8ae0f72b4da36cc2b",
       url: "/img/poster/chainsaw man - poster.jpg",
       año: "2022",
-      capitulos: "02/12"
-  },{
-      id: 15,
-      titulo: "Blue Lock",
-      tipo: "anime",
-      href: "/63460455ae0f72b4da36cc24",
-      url: "/img/poster/blue lock - poster.jpg",
-      año: "2022",
-      capitulos: "03/24"
-  },{
-      id: 13,
-      titulo: "Boku no Hero Academia S6",
-      tipo: "anime",
-      href: "/63444fee334cf9fb31f6222e",
-      url: "/img/poster/boku no hero s6 - poster.jpg",
-      año: "2022",
-      capitulos: "04/25"
-  },{
-      id: 11,
-      titulo: "SPY x FAMILY S2",
-      tipo: "anime",
-      href: "/633b6161d381cf953bbf16a0",
-      url: "/img/poster/spy x family s2 - poster.jpg",
-      año: "2022",
-      capitulos: "04/13"
-  },{
-      id: 14,
-      titulo: "Beast Tamer",
-      tipo: "anime",
-      href: "/6345db70ae0f72b4da36cbff",
-      url: "/img/poster/beast tamer - poster.jpg",
-      año: "2022",
-      capitulos: "04/13"
+      capitulos: "04/12"
   },{
       id: 17,
       titulo: "Kage no Jitsuryokusha ni Naritakute!",
@@ -57,7 +25,47 @@ const MENU_LIST = [
       href: "/635733fb3f6d348d451bf4a8",
       url: "/img/poster/kage no naritakute - poster.jpg",
       año: "2022",
-      capitulos: "03/20"
+      capitulos: "04/20"
+  },{
+      id: 11,
+      titulo: "SPY x FAMILY S2",
+      tipo: "anime",
+      href: "/633b6161d381cf953bbf16a0",
+      url: "/img/poster/spy x family s2 - poster.jpg",
+      año: "2022",
+      capitulos: "05/13"
+  },{
+      id: 15,
+      titulo: "Blue Lock",
+      tipo: "anime",
+      href: "/63460455ae0f72b4da36cc24",
+      url: "/img/poster/blue lock - poster.jpg",
+      año: "2022",
+      capitulos: "04/24"
+  },{
+      id: 13,
+      titulo: "Boku no Hero Academia S6",
+      tipo: "anime",
+      href: "/63444fee334cf9fb31f6222e",
+      url: "/img/poster/boku no hero s6 - poster.jpg",
+      año: "2022",
+      capitulos: "05/25"
+  },{
+      id: 14,
+      titulo: "Beast Tamer",
+      tipo: "anime",
+      href: "/6345db70ae0f72b4da36cbff",
+      url: "/img/poster/beast tamer - poster.jpg",
+      año: "2022",
+      capitulos: "05/13"
+  },{
+      id: 18,
+      titulo: "Shinobi no Ittoki",
+      tipo: "anime",
+      href: "/635ac49b17919958e8ccb459",
+      url: "/img/poster/shinobi no ittoki - poster.jpg",
+      año: "2022",
+      capitulos: "05/12"
   },{
       id: 10,
       titulo: "Classroom of the Elite II",
