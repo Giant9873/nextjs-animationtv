@@ -40,7 +40,7 @@ const Homeagregados = () => {
         <Link href={menu.href} key={menu.titulo}>
         <div className="col-md-3 col-sm-3" >
           <div  >
-            <div className="card" >
+            <div className="card noborder" >
               <Image className="card-img-top crop2 " src={menu.url} width={600} height={400} alt="1"></Image>
               <div className="card-body">
                 <h5 className="card-title">{menu.titulo} - {menu.capitulo}</h5>

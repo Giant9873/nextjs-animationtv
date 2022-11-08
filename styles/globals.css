@@ -1841,7 +1841,7 @@ nav{
   width: 100% !important;
   height: 290px !important;
   object-fit: cover !important;
-  
+
 }
 .crop2{
   width: 100%;
@@ -1850,7 +1850,7 @@ nav{
   object-position: top;
 }
 .noborder{
-  border: none !important;
+  border: 1px solid #ddd9f4;
 }
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;

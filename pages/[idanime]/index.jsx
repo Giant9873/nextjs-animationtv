@@ -25,7 +25,7 @@ const AnimePage = ({ success, error, anime }) => {
   return (
     <div>
     <Layout title={"Descargar "+anime.titulo+" - Sub. Español - "+anime.capitulos}
-    description="Lista de Series Animadas en Español " imageog={anime.imagecap1}>
+    description="Lista de Series Animadas en Español " imageog={anime.imagecap5}>
       <div className="topspace">
       <main className="container">
       <div className="row">
