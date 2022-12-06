@@ -266,12 +266,12 @@ const AnimePage = ({ success, error, anime }) => {
             <div className="col-md-1 col-sm-6 col-12"></div>
             <div className="col-md-3 col-sm-12 col-12">
               <h2 className=""> También te puede interesar :</h2><br />
-              <div className="card" >
+              <Link href={anime.lireco1}><div className="card" >
                 <Image className="card-img-top crop1" src={anime.imgreco1} width={600} height={600} alt="1" />
                 <div className="card-body">
                   <h4 className="card-title center">{anime.namereco1}</h4>
                 </div>
-              </div>
+              </div></Link>
               <div className="card" >
                 <Image className="card-img-top crop1" src={anime.imgreco2} width={600} height={600} alt="1" />
                 <div className="card-body">

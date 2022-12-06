@@ -26,7 +26,7 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link href={"/"}>
           <a>
-            <h1 className="logo">animation TV</h1>
+            <h1 className="logo">Animation TV</h1>
           </a>
         </Link>
         <div

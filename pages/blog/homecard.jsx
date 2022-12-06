@@ -3,6 +3,30 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 1,
+      titulo: "Tomodadadchi Game",
+      tipo: "anime",
+      href: "/637c4926c2c1b4ec00361e14",
+      url: "/img/poster/tomadachi game - poster.jpg",
+      año: "2022",
+      capitulos: "12/12"
+  },{
+      id: 11,
+      titulo: "SPY x FAMILY S2",
+      tipo: "anime",
+      href: "/633b6161d381cf953bbf16a0",
+      url: "/img/poster/spy x family s2 - poster.jpg",
+      año: "2022",
+      capitulos: "10/13"
+  },{
+      id: 14,
+      titulo: "Beast Tamer",
+      tipo: "anime",
+      href: "/6345db70ae0f72b4da36cbff",
+      url: "/img/poster/beast tamer - poster.jpg",
+      año: "2022",
+      capitulos: "10/13"
+  },{
       id: 4,
       titulo: "Vermeil in Gold",
       tipo: "anime",
@@ -17,7 +41,7 @@ const MENU_LIST = [
       href: "/6341e1a528f84e5af3593027",
       url: "/img/poster/mob p 100 s3 - poster.jpg",
       año: "2022",
-      capitulos: "07/??"
+      capitulos: "09/??"
   },{
       id: 16,
       titulo: "Chainsaw Man",
@@ -35,14 +59,6 @@ const MENU_LIST = [
       año: "2022",
       capitulos: "07/20"
   },{
-      id: 11,
-      titulo: "SPY x FAMILY S2",
-      tipo: "anime",
-      href: "/633b6161d381cf953bbf16a0",
-      url: "/img/poster/spy x family s2 - poster.jpg",
-      año: "2022",
-      capitulos: "07/13"
-  },{
       id: 15,
       titulo: "Blue Lock",
       tipo: "anime",
@@ -58,14 +74,6 @@ const MENU_LIST = [
       url: "/img/poster/boku no hero s6 - poster.jpg",
       año: "2022",
       capitulos: "07/25"
-  },{
-      id: 14,
-      titulo: "Beast Tamer",
-      tipo: "anime",
-      href: "/6345db70ae0f72b4da36cbff",
-      url: "/img/poster/beast tamer - poster.jpg",
-      año: "2022",
-      capitulos: "07/13"
   },{
       id: 18,
       titulo: "Shinobi no Ittoki",
@@ -138,14 +146,6 @@ const MENU_LIST = [
       url: "/img/poster/ao ashi - poster.jpg",
       año: "2022",
       capitulos: "22/24"
-  },{
-      id: 1,
-      titulo: "Tomodadadchi Game",
-      tipo: "anime",
-      href: "/632b854f4180c5cd4",
-      url: "/img/poster/tomadachi game - poster.jpg",
-      año: "2022",
-      capitulos: "12/12"
   }
 ];
 
