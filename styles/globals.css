@@ -116,22 +116,28 @@ nav{
    width: 100%;
    color: white !important;
   }
+
+
+
+
 }
 
 .textsino{
   color: white;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .texttitulo{
   color: white;
-  font-size: 36px;
+  font-size: 38px;
 }
 
 .textdetalles{
   color: white;
   font-size: 18px;
   line-height: 1.35;
+  font-weight: 500;
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -1647,7 +1653,7 @@ nav{
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #eee;
+  --bs-card-bg: #3F0071;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -1779,8 +1785,8 @@ nav{
 }
 
 .topspace{
-  padding-top: 40px;
-  padding-bottom: 110px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #000000;
 }
 
@@ -1789,11 +1795,14 @@ nav{
   padding-top: 120px;
   font-weight: 800px;
   color: white;
+  text-align: center;
 }
 
 .separator{
   padding-top: 50px;
   padding-bottom: 60px;
+  color: white;
+  background-color: #150050;
 }
 
 .titulospri{
@@ -1855,7 +1864,7 @@ nav{
 }
 
 .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: 0px 0px 0px 3px #FB2576;
 }
 
 @media screen and (max-width: 415px){
@@ -1874,5 +1883,81 @@ nav{
   .cover{
     width: 100% !important;
   }
+  .divencima{
+    position: relative !important;
+    top: 10px !important;
+    left: 0 !important;
+  }
+  .imageencabezado{
+    position: absolute !important;
+    top: 0px;
+  }
+}
 
+@media screen and (max-width: 815px){
+
+}
+.imageencabezado{
+  filter: brightness(0.5);
+  position:abasolute;
+  top:0px;
+  left:0px;
+  z-index:5;
+}
+.divencima{
+
+  position: absolute;
+  top:170px;
+  left:160px;
+  z-index:10;
+  padding-bottom: 120px;
+}
+
+.divencima2{
+  position: absolute;
+}
+
+.fondoimagen{
+  filter: blur(4px);
+}
+
+.hrestilo1{
+  border: 0;
+  border-top: 4px solid #FFFFFF;
+  height:0;
+}
+
+.border-gradient {
+  border: 10px solid !important;
+  border-image-slice: 1 !important;
+  border-width: 5px !important;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #ed490c, #e53d14)!important;
+}
+
+.starpunt{
+  font-size: 35px;
+  text-align: center;
+  background-image: radial-gradient(circle at 31.7% 118.3%, #fb6100 0, #f55500 25%, #ed490c 50%, #e53d14 75%, #dd301a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.puntumyanime{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.homeportada{
+  background-image: url("/img/home-animesbg.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: abasolute;
+  padding-top: 140px;
+  padding-bottom: 280px;
 }

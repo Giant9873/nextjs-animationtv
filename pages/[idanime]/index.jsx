@@ -27,39 +27,46 @@ const AnimePage = ({ success, error, anime }) => {
     <Layout title={"Descargar "+anime.titulo+" - Sub. Español - "+anime.capitulos}
     description="Lista de Series Animadas en Español " imageog={anime.imagecap6}>
       <div className="topspace">
-      <main className="container">
-      <div className="row">
-        <div className="col-md-4 col-sm-6 col-12">
-          <div className="">
-            <Image className="" src={anime.imageurl} alt="1" width="100%" height="140" layout="responsive" /> <br />
-          </div>
-
+        <div className="imageencabezado">
+          <Image className="fondoimagen" src={anime.imagecap1} alt="1" width="100%" height="50" layout="responsive" /> <br />
         </div>
-        <div className="col-md-8 col-sm-6 col-12">
-
-            <h1 className="texttitulo">{anime.titulo}</h1><br />
-            <p className="textsino">{anime.sinopsis}</p><br />
-          <div className="textdetalles">
-            <ul><b>Género :</b> {anime.genero} </ul>
-            <ul><b>Año de Estreno : </b> {anime.fecha}</ul>
-            <ul><b>Capítulos : </b> {anime.capitulos}</ul>
-            <ul><b>Studio : </b> {anime.studio}</ul>
-            <ul><b>Estado : </b> {anime.estado}</ul>
-            <ul><b>Peso :</b> {anime.peso}</ul>
-            <ul><b>Clave :</b> FreeAnimeOtakuMode</ul>
-            <ul><b>Precuela :</b> {anime.precuela} </ul>
-            <ul><b>Secuela : </b> {anime.secuela} </ul>
+      <main className="container divencima">
+      <div className="">
+        <div className="row">
+          <div className="col-md-7 col-sm-6 col-12">
+              <h1 className="texttitulo">{anime.titulo}</h1>
+              <hr className="hrestilo1"/><br />
+              <p className="textsino">{anime.sinopsis}</p><br />
+            <div className="textdetalles">
+              <ul><b>Género :</b> {anime.genero} </ul>
+              <ul><b>Año de Estreno : </b> {anime.fecha}</ul>
+              <ul><b>Capítulos : </b> {anime.capitulos}</ul>
+              <ul><b>Studio : </b> {anime.studio}</ul>
+              <ul><b>Estado : </b> {anime.estado}</ul>
+              <ul><b>Peso :</b> {anime.peso}</ul>
+              <ul><b>Clave :</b> FreeAnimeOtakuMode</ul>
+              <ul><b>Precuela :</b> {anime.precuela} </ul>
+              <ul><b>Secuela : </b> {anime.secuela} </ul>
+            </div>
+          </div>
+          <div className="col-md-1 col-sm-6 col-12"> </div>
+          <div className="col-md-3 col-sm-6 col-12">
+            <div className="">
+              <Image className="border-gradient border-gradient-purple" src={anime.imageurl} alt="1" width="100%" height="140" layout="responsive" /> <br />
+              <p className="starpunt">{anime.estrellas}</p><br />
+              <p className="puntumyanime">Puntuación en MAL : {anime.myanimelist}</p><br />
+            </div>
           </div>
         </div>
       </div>
       </main>
       </div>
 
-      <div className="container separator"><br /><br /><br /><br />
+      <div className="separator">
+      <div className="container"><br /><br /><br /><br />
           <div className="row">
             <div className="col-md-8 col-sm-12 col-12">
-            <Image className="listimg" width={35} height={35} alt="list" src="/img/listdownload.png" />
-            <h1 className="textlist">{anime.titulo} - Enlaces de Descarga - {anime.capitulos} :</h1><br /><br /><br />
+            <h1 className="textlist">⟱ {anime.titulo} - Enlaces de Descarga - {anime.capitulos} :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 01</h3><br />
@@ -106,8 +113,8 @@ const AnimePage = ({ success, error, anime }) => {
             </div>
             <br /><br /><br />
 
-            <Image className="listimg" width={35} height={35} alt="list" src="/img/listvideo.png" />
-            <h1 className="textlist">{anime.titulo} - Lista de Capitulos - {anime.capitulos} :</h1><br /><br /><br />
+
+            <h1 className="textlist">☰ {anime.titulo} - Lista de Capitulos - {anime.capitulos} :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-12">
                 <div className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap1} />
@@ -278,7 +285,7 @@ const AnimePage = ({ success, error, anime }) => {
                   <h4 className="card-title center">{anime.namereco2}</h4>
                 </div>
               </div>
-
+              </div>
             </div>
           </div>
       </div>

@@ -13,7 +13,8 @@ export default function Home({ animes }) {
     <div>
       <Layout title="Lista de Animes | Animation TV"
       description="Lista de Series Animadas en Español y Subtituladas">
-        <main className="container separator">
+        <main className="separator">
+        <div className="container">
           <h1>Lista de Animes </h1>
           <div className="row separator">
           {
@@ -35,7 +36,7 @@ export default function Home({ animes }) {
               ))
           }
           </div>
-
+          </div>
         </main>
 
       </Layout>

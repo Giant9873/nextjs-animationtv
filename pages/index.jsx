@@ -12,21 +12,18 @@ export default function Home() {
       description="Lo mejor de la animación en una sola web"
       imageog="/img/homepri.jpg"
     >
-      <div className="topspace">
+      <div className="homeportada">
         <div className="container">
-        <div className="row">
-          <div className="col-md-7 col-sm-12" >
-            <h1 className="textprincipal"> Encuentra las mejores series y películas animadas en un solo lugar. </h1>
+          <div className="row">
+            <div className="col-md-12 col-sm-12" >
+              <h1 className="textprincipal"> Encuentra las mejores series y películas animadas en un solo lugar. </h1>
+            </div>
           </div>
-          <div className="col-md-5 col-sm-12" >
-            <br /><br />
-            <Image src="/img/sukuna1.jpg" width={400} height={500} alt="1"></Image>
-          </div>
-        </div>
         </div>
       </div>
+
       <div>
-        <div className="container separator">
+        <div className=" separator"><div className="container ">
           <div className="row">
             <div className="col-md-12 col-sm-12" >
               <h1 className="titulospri"> Animes de Temporada :  </h1>
@@ -39,7 +36,7 @@ export default function Home() {
               <Homeagregados />
             </div>
           </div>
-        </div>
+        </div></div>
       </div>
     </Layout>
   )

@@ -3,13 +3,21 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 19,
+      titulo: "Tensei shitara Ken Deshita",
+      tipo: "anime",
+      href: "/63a378d5d467a7fc9e9d280e",
+      url: "/img/poster/tensei skd - poster.jpg",
+      año: "2022",
+      capitulos: "12/12"
+  },{
       id: 18,
       titulo: "Shinobi no Ittoki",
       tipo: "anime",
       href: "/635ac49b17919958e8ccb459",
       url: "/img/poster/shinobi no ittoki - poster.jpg",
       año: "2022",
-      capitulos: "09/12"
+      capitulos: "12/12"
   },{
       id: 1,
       titulo: "Tomodadadchi Game",
@@ -49,7 +57,7 @@ const MENU_LIST = [
       href: "/6341e1a528f84e5af3593027",
       url: "/img/poster/mob p 100 s3 - poster.jpg",
       año: "2022",
-      capitulos: "11/12"
+      capitulos: "12/12"
   },{
       id: 16,
       titulo: "Chainsaw Man",
@@ -57,7 +65,7 @@ const MENU_LIST = [
       href: "/634624f8ae0f72b4da36cc2b",
       url: "/img/poster/chainsaw man - poster.jpg",
       año: "2022",
-      capitulos: "10/12"
+      capitulos: "11/12"
   },{
       id: 17,
       titulo: "Kage no Jitsuryokusha ni Naritakute!",

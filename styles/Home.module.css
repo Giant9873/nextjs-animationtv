@@ -1,6 +1,8 @@
 .container {
   padding: 0 2rem;
+
 }
+
 
 .main {
   min-height: 100vh;
@@ -16,13 +18,15 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #FB2576;
   justify-content: center;
   align-items: center;
+  background-color: #150050;
+  color: white;
 }
 
 a.linkcss2:visited {
-  color: black ;
+  color: white ;
 }
 
 .footer a {
