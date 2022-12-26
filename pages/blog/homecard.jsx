@@ -19,21 +19,13 @@ const MENU_LIST = [
       año: "2022",
       capitulos: "12/12"
   },{
-      id: 1,
-      titulo: "Tomodadadchi Game",
-      tipo: "anime",
-      href: "/637c4926c2c1b4ec00361e14",
-      url: "/img/poster/tomadachi game - poster.jpg",
-      año: "2022",
-      capitulos: "12/12"
-  },{
       id: 11,
       titulo: "SPY x FAMILY Part 2",
       tipo: "anime",
       href: "/633b6161d381cf953bbf16a0",
       url: "/img/poster/spy x family s2 - poster.jpg",
       año: "2022",
-      capitulos: "12/13"
+      capitulos: "13/13"
   },{
       id: 14,
       titulo: "Beast Tamer",
@@ -41,7 +33,15 @@ const MENU_LIST = [
       href: "/6345db70ae0f72b4da36cbff",
       url: "/img/poster/beast tamer - poster.jpg",
       año: "2022",
-      capitulos: "12/13"
+      capitulos: "13/13"
+  },{
+      id: 1,
+      titulo: "Tomodadadchi Game",
+      tipo: "anime",
+      href: "/637c4926c2c1b4ec00361e14",
+      url: "/img/poster/tomadachi game - poster.jpg",
+      año: "2022",
+      capitulos: "12/12"
   },{
       id: 4,
       titulo: "Vermeil in Gold",
@@ -73,7 +73,7 @@ const MENU_LIST = [
       href: "/635733fb3f6d348d451bf4a8",
       url: "/img/poster/kage no naritakute - poster.jpg",
       año: "2022",
-      capitulos: "11/20"
+      capitulos: "12/20"
   },{
       id: 15,
       titulo: "Blue Lock",
@@ -89,7 +89,7 @@ const MENU_LIST = [
       href: "/63444fee334cf9fb31f6222e",
       url: "/img/poster/boku no hero s6 - poster.jpg",
       año: "2022",
-      capitulos: "12/25"
+      capitulos: "13/25"
   },{
       id: 10,
       titulo: "Classroom of the Elite II",
