@@ -1934,6 +1934,7 @@ nav{
 }
 .border-gradient-purple {
   border-image-source: linear-gradient(to left, #ed490c, #e53d14)!important;
+  -moz-border-image-source: linear-gradient(to left, #ed490c, #e53d14); 
   -webkit-border-image-source: linear-gradient(to left, #ed490c, #e53d14);
   -o-border-image-source: linear-gradient(to left, #ed490c, #e53d14);
 }

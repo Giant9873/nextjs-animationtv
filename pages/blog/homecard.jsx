@@ -3,6 +3,62 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 23,
+      titulo: "Vinland Saga S2",
+      tipo: "anime",
+      href: "/63444fee",
+      url: "/img/poster/vinland saga s2 - poster.jpg",
+      año: "2023",
+      capitulos: "02/24"
+  },{
+      id: 22,
+      titulo: "NieR: Automata Ver1.1a",
+      tipo: "anime",
+      href: "/63444fee",
+      url: "/img/poster/nier automata v1 - poster.jpg",
+      año: "2023",
+      capitulos: "03/??"
+  },{
+      id: 21,
+      titulo: "Buddy Daddies",
+      tipo: "anime",
+      href: "/63444fee",
+      url: "/img/poster/buddy daddies - poster.jpg",
+      año: "2023",
+      capitulos: "03/13"
+  },{
+      id: 20,
+      titulo: "High Card",
+      tipo: "anime",
+      href: "/63444fee",
+      url: "/img/poster/high card - poster.jpg",
+      año: "2023",
+      capitulos: "03/12"
+  },{
+      id: 13,
+      titulo: "Boku no Hero Academia S6",
+      tipo: "anime",
+      href: "/63444fee334cf9fb31f6222e",
+      url: "/img/poster/boku no hero s6 - poster.jpg",
+      año: "2022",
+      capitulos: "16/25"
+  },{
+      id: 17,
+      titulo: "Kage no Jitsuryokusha ni Naritakute!",
+      tipo: "anime",
+      href: "/635733fb3f6d348d451bf4a8",
+      url: "/img/poster/kage no naritakute - poster.jpg",
+      año: "2022",
+      capitulos: "16/20"
+  },{
+      id: 15,
+      titulo: "Blue Lock",
+      tipo: "anime",
+      href: "/63460455ae0f72b4da36cc24",
+      url: "/img/poster/blue lock - poster.jpg",
+      año: "2022",
+      capitulos: "15/24"
+  },{
       id: 19,
       titulo: "Tensei shitara Ken Deshita",
       tipo: "anime",
@@ -65,31 +121,7 @@ const MENU_LIST = [
       href: "/634624f8ae0f72b4da36cc2b",
       url: "/img/poster/chainsaw man - poster.jpg",
       año: "2022",
-      capitulos: "11/12"
-  },{
-      id: 17,
-      titulo: "Kage no Jitsuryokusha ni Naritakute!",
-      tipo: "anime",
-      href: "/635733fb3f6d348d451bf4a8",
-      url: "/img/poster/kage no naritakute - poster.jpg",
-      año: "2022",
-      capitulos: "12/20"
-  },{
-      id: 15,
-      titulo: "Blue Lock",
-      tipo: "anime",
-      href: "/63460455ae0f72b4da36cc24",
-      url: "/img/poster/blue lock - poster.jpg",
-      año: "2022",
-      capitulos: "12/24"
-  },{
-      id: 13,
-      titulo: "Boku no Hero Academia S6",
-      tipo: "anime",
-      href: "/63444fee334cf9fb31f6222e",
-      url: "/img/poster/boku no hero s6 - poster.jpg",
-      año: "2022",
-      capitulos: "13/25"
+      capitulos: "12/12"
   },{
       id: 10,
       titulo: "Classroom of the Elite II",
