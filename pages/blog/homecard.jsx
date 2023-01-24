@@ -6,7 +6,7 @@ const MENU_LIST = [
       id: 23,
       titulo: "Vinland Saga S2",
       tipo: "anime",
-      href: "/63444fee",
+      href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
       capitulos: "02/24"
@@ -14,7 +14,7 @@ const MENU_LIST = [
       id: 22,
       titulo: "NieR: Automata Ver1.1a",
       tipo: "anime",
-      href: "/63444fee",
+      href: "/63cef7c228d226a37d999324",
       url: "/img/poster/nier automata v1 - poster.jpg",
       año: "2023",
       capitulos: "03/??"
@@ -22,7 +22,7 @@ const MENU_LIST = [
       id: 21,
       titulo: "Buddy Daddies",
       tipo: "anime",
-      href: "/63444fee",
+      href: "/63cc6d18e447ff2a7c17c4cd",
       url: "/img/poster/buddy daddies - poster.jpg",
       año: "2023",
       capitulos: "03/13"
@@ -30,7 +30,7 @@ const MENU_LIST = [
       id: 20,
       titulo: "High Card",
       tipo: "anime",
-      href: "/63444fee",
+      href: "/63cf0b5a2053fbb3e956576d",
       url: "/img/poster/high card - poster.jpg",
       año: "2023",
       capitulos: "03/12"
