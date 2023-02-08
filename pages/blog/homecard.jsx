@@ -3,13 +3,21 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 24,
+      titulo: "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu",
+      tipo: "anime",
+      href: "/63e2c925a4c9e13b3082fee0",
+      url: "/img/poster/Ningen Fushin no Boukensha - poster.jpg",
+      año: "2023",
+      capitulos: "06/12"
+  },{
       id: 23,
       titulo: "Vinland Saga S2",
       tipo: "anime",
       href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
-      capitulos: "02/24"
+      capitulos: "05/24"
   },{
       id: 22,
       titulo: "NieR: Automata Ver1.1a",
@@ -25,7 +33,7 @@ const MENU_LIST = [
       href: "/63cc6d18e447ff2a7c17c4cd",
       url: "/img/poster/buddy daddies - poster.jpg",
       año: "2023",
-      capitulos: "03/13"
+      capitulos: "05/13"
   },{
       id: 20,
       titulo: "High Card",
@@ -41,7 +49,7 @@ const MENU_LIST = [
       href: "/63444fee334cf9fb31f6222e",
       url: "/img/poster/boku no hero s6 - poster.jpg",
       año: "2022",
-      capitulos: "16/25"
+      capitulos: "18/25"
   },{
       id: 17,
       titulo: "Kage no Jitsuryokusha ni Naritakute!",
@@ -49,7 +57,7 @@ const MENU_LIST = [
       href: "/635733fb3f6d348d451bf4a8",
       url: "/img/poster/kage no naritakute - poster.jpg",
       año: "2022",
-      capitulos: "16/20"
+      capitulos: "18/20"
   },{
       id: 15,
       titulo: "Blue Lock",
@@ -57,7 +65,7 @@ const MENU_LIST = [
       href: "/63460455ae0f72b4da36cc24",
       url: "/img/poster/blue lock - poster.jpg",
       año: "2022",
-      capitulos: "15/24"
+      capitulos: "17/24"
   },{
       id: 19,
       titulo: "Tensei shitara Ken Deshita",

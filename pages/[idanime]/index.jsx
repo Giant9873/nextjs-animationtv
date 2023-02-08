@@ -45,8 +45,12 @@ const AnimePage = ({ success, error, anime }) => {
               <ul><b>Estado : </b> {anime.estado}</ul>
               <ul><b>Peso :</b> {anime.peso}</ul>
               <ul><b>Clave :</b> FreeAnimeOtakuMode</ul>
-              <ul><b>Precuela :</b> {anime.precuela} </ul>
-              <ul><b>Secuela : </b> {anime.secuela} </ul>
+              <ul><b>Precuela :</b> <Link href={anime.liprecuela} className="linkcss3">
+                                      {anime.precuela}
+                                    </Link> </ul>
+              <ul><b>Secuela : </b> <Link href={anime.lisecuela} className="linkcss3">
+                                      {anime.secuela}
+                                    </Link> </ul>
             </div>
           </div>
           <div className="col-md-1 col-sm-6 col-12"> </div>
