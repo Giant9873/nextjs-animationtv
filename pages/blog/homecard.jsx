@@ -2,14 +2,30 @@ import Image from "next/image";
 import Link from "next/link";
 
 const MENU_LIST = [
-  {
+  ,{
+      id: 25,
+      titulo: "Tondemo Skill de Isekai Hourou Meshi",
+      tipo: "anime",
+      href: "/63ec0a38b270c92f01bb1f14",
+      url: "/img/poster/tondemo skills isekai - poster.jpg",
+      año: "2023",
+      capitulos: "06/12"
+  },{
+      id: 17,
+      titulo: "Kage no Jitsuryokusha ni Naritakute!",
+      tipo: "anime",
+      href: "/635733fb3f6d348d451bf4a8",
+      url: "/img/poster/kage no naritakute - poster.jpg",
+      año: "2022",
+      capitulos: "20/20"
+  },{
       id: 24,
       titulo: "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu",
       tipo: "anime",
       href: "/63e2c925a4c9e13b3082fee0",
       url: "/img/poster/Ningen Fushin no Boukensha - poster.jpg",
       año: "2023",
-      capitulos: "06/12"
+      capitulos: "07/12"
   },{
       id: 23,
       titulo: "Vinland Saga S2",
@@ -17,7 +33,7 @@ const MENU_LIST = [
       href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
-      capitulos: "05/24"
+      capitulos: "06/24"
   },{
       id: 22,
       titulo: "NieR: Automata Ver1.1a",
@@ -33,7 +49,7 @@ const MENU_LIST = [
       href: "/63cc6d18e447ff2a7c17c4cd",
       url: "/img/poster/buddy daddies - poster.jpg",
       año: "2023",
-      capitulos: "05/13"
+      capitulos: "06/13"
   },{
       id: 20,
       titulo: "High Card",
@@ -41,7 +57,7 @@ const MENU_LIST = [
       href: "/63cf0b5a2053fbb3e956576d",
       url: "/img/poster/high card - poster.jpg",
       año: "2023",
-      capitulos: "03/12"
+      capitulos: "06/12"
   },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
@@ -51,21 +67,13 @@ const MENU_LIST = [
       año: "2022",
       capitulos: "18/25"
   },{
-      id: 17,
-      titulo: "Kage no Jitsuryokusha ni Naritakute!",
-      tipo: "anime",
-      href: "/635733fb3f6d348d451bf4a8",
-      url: "/img/poster/kage no naritakute - poster.jpg",
-      año: "2022",
-      capitulos: "18/20"
-  },{
       id: 15,
       titulo: "Blue Lock",
       tipo: "anime",
       href: "/63460455ae0f72b4da36cc24",
       url: "/img/poster/blue lock - poster.jpg",
       año: "2022",
-      capitulos: "17/24"
+      capitulos: "18/24"
   },{
       id: 19,
       titulo: "Tensei shitara Ken Deshita",
@@ -190,7 +198,7 @@ const MENU_LIST = [
       id: 2,
       titulo: "Ao Ashi",
       tipo: "anime",
-      href: "/632b854f4180c5cd4",
+      href: "/63ab15ad05642451ca230c5d",
       url: "/img/poster/ao ashi - poster.jpg",
       año: "2022",
       capitulos: "22/24"
