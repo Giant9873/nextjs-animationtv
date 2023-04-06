@@ -2,14 +2,30 @@ import Image from "next/image";
 import Link from "next/link";
 
 const MENU_LIST = [
-  ,{
+  {
+      id: 13,
+      titulo: "Boku no Hero Academia S6",
+      tipo: "anime",
+      href: "/63444fee334cf9fb31f6222e",
+      url: "/img/poster/boku no hero s6 - poster.jpg",
+      año: "2022",
+      capitulos: "25/25"
+  },{
+      id: 15,
+      titulo: "Blue Lock",
+      tipo: "anime",
+      href: "/63460455ae0f72b4da36cc24",
+      url: "/img/poster/blue lock - poster 2.jpg",
+      año: "2022",
+      capitulos: "24/24"
+  },{
       id: 25,
       titulo: "Tondemo Skill de Isekai Hourou Meshi",
       tipo: "anime",
       href: "/63ec0a38b270c92f01bb1f14",
       url: "/img/poster/tondemo skills isekai - poster.jpg",
       año: "2023",
-      capitulos: "06/12"
+      capitulos: "12/12"
   },{
       id: 17,
       titulo: "Kage no Jitsuryokusha ni Naritakute!",
@@ -25,7 +41,7 @@ const MENU_LIST = [
       href: "/63e2c925a4c9e13b3082fee0",
       url: "/img/poster/Ningen Fushin no Boukensha - poster.jpg",
       año: "2023",
-      capitulos: "07/12"
+      capitulos: "10/12"
   },{
       id: 23,
       titulo: "Vinland Saga S2",
@@ -33,7 +49,7 @@ const MENU_LIST = [
       href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
-      capitulos: "06/24"
+      capitulos: "10/24"
   },{
       id: 22,
       titulo: "NieR: Automata Ver1.1a",
@@ -58,22 +74,6 @@ const MENU_LIST = [
       url: "/img/poster/high card - poster.jpg",
       año: "2023",
       capitulos: "06/12"
-  },{
-      id: 13,
-      titulo: "Boku no Hero Academia S6",
-      tipo: "anime",
-      href: "/63444fee334cf9fb31f6222e",
-      url: "/img/poster/boku no hero s6 - poster.jpg",
-      año: "2022",
-      capitulos: "18/25"
-  },{
-      id: 15,
-      titulo: "Blue Lock",
-      tipo: "anime",
-      href: "/63460455ae0f72b4da36cc24",
-      url: "/img/poster/blue lock - poster.jpg",
-      año: "2022",
-      capitulos: "18/24"
   },{
       id: 19,
       titulo: "Tensei shitara Ken Deshita",
