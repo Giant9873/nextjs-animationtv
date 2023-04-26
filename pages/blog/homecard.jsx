@@ -3,6 +3,38 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 28,
+      titulo: "Dr. Stone: New World (S3)",
+      tipo: "anime",
+      href: "/64483ece6b0fe7a2afe7c98b",
+      url: "/img/poster/drstones3 - poster.jpg",
+      año: "2023",
+      capitulos: "03/11"
+  },{
+      id: 27,
+      titulo: "My Home Hero",
+      tipo: "anime",
+      href: "/64481b585ed3f8240cb19afa",
+      url: "/img/poster/myhomehero - poster.jpg",
+      año: "2023",
+      capitulos: "04/12"
+  },{
+      id: 26,
+      titulo: "Mashle",
+      tipo: "anime",
+      href: "/644808cbbcc9fe8b2b06cca9",
+      url: "/img/poster/mashle - poster.jpg",
+      año: "2023",
+      capitulos: "03/12"
+  },{
+      id: 23,
+      titulo: "Vinland Saga S2",
+      tipo: "anime",
+      href: "/63c87df5dc152840055f80a2",
+      url: "/img/poster/vinland saga s2 - poster.jpg",
+      año: "2023",
+      capitulos: "16/24"
+  },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
       tipo: "anime",
@@ -42,14 +74,6 @@ const MENU_LIST = [
       url: "/img/poster/Ningen Fushin no Boukensha - poster.jpg",
       año: "2023",
       capitulos: "10/12"
-  },{
-      id: 23,
-      titulo: "Vinland Saga S2",
-      tipo: "anime",
-      href: "/63c87df5dc152840055f80a2",
-      url: "/img/poster/vinland saga s2 - poster.jpg",
-      año: "2023",
-      capitulos: "10/24"
   },{
       id: 22,
       titulo: "NieR: Automata Ver1.1a",
