@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/64483ece6b0fe7a2afe7c98b",
       url: "/img/poster/drstones3 - poster.jpg",
       año: "2023",
-      capitulos: "03/11"
+      capitulos: "04/11"
   },{
       id: 27,
       titulo: "My Home Hero",
@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/64481b585ed3f8240cb19afa",
       url: "/img/poster/myhomehero - poster.jpg",
       año: "2023",
-      capitulos: "04/12"
+      capitulos: "05/12"
   },{
       id: 26,
       titulo: "Mashle",
@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/644808cbbcc9fe8b2b06cca9",
       url: "/img/poster/mashle - poster.jpg",
       año: "2023",
-      capitulos: "03/12"
+      capitulos: "04/12"
   },{
       id: 23,
       titulo: "Vinland Saga S2",
@@ -33,7 +33,23 @@ const MENU_LIST = [
       href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
-      capitulos: "16/24"
+      capitulos: "17/24"
+  },{
+      id: 2,
+      titulo: "Kimetsu no Yaiba: Katanakaji no Sato-hen (S3)",
+      tipo: "anime",
+      href: "/6451905df4e9edd1d8c395da",
+      url: "/img/poster/kimetsunys3 - poster.jpg",
+      año: "2022",
+      capitulos: "04/11"
+  },{
+      id: 29,
+      titulo: "Jigokuraku",
+      tipo: "anime",
+      href: "/6451792645ead47cebbd86d3",
+      url: "/img/poster/jigokuraku - poster.jpg",
+      año: "2023",
+      capitulos: "05/13"
   },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
@@ -73,7 +89,7 @@ const MENU_LIST = [
       href: "/63e2c925a4c9e13b3082fee0",
       url: "/img/poster/Ningen Fushin no Boukensha - poster.jpg",
       año: "2023",
-      capitulos: "10/12"
+      capitulos: "12/12"
   },{
       id: 22,
       titulo: "NieR: Automata Ver1.1a",
@@ -81,7 +97,7 @@ const MENU_LIST = [
       href: "/63cef7c228d226a37d999324",
       url: "/img/poster/nier automata v1 - poster.jpg",
       año: "2023",
-      capitulos: "03/??"
+      capitulos: "08/??"
   },{
       id: 21,
       titulo: "Buddy Daddies",
@@ -89,7 +105,7 @@ const MENU_LIST = [
       href: "/63cc6d18e447ff2a7c17c4cd",
       url: "/img/poster/buddy daddies - poster.jpg",
       año: "2023",
-      capitulos: "06/13"
+      capitulos: "13/13"
   },{
       id: 20,
       titulo: "High Card",
@@ -218,14 +234,6 @@ const MENU_LIST = [
       url: "/img/poster/summer timerender - poster.jpg",
       año: "2022",
       capitulos: "22/25"
-  },{
-      id: 2,
-      titulo: "Ao Ashi",
-      tipo: "anime",
-      href: "/63ab15ad05642451ca230c5d",
-      url: "/img/poster/ao ashi - poster.jpg",
-      año: "2022",
-      capitulos: "22/24"
   }
 ];
 
