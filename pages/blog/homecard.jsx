@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/64483ece6b0fe7a2afe7c98b",
       url: "/img/poster/drstones3 - poster.jpg",
       año: "2023",
-      capitulos: "04/11"
+      capitulos: "06/11"
   },{
       id: 27,
       titulo: "My Home Hero",
@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/64481b585ed3f8240cb19afa",
       url: "/img/poster/myhomehero - poster.jpg",
       año: "2023",
-      capitulos: "05/12"
+      capitulos: "07/12"
   },{
       id: 26,
       titulo: "Mashle",
@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/644808cbbcc9fe8b2b06cca9",
       url: "/img/poster/mashle - poster.jpg",
       año: "2023",
-      capitulos: "04/12"
+      capitulos: "06/12"
   },{
       id: 23,
       titulo: "Vinland Saga S2",
@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
-      capitulos: "17/24"
+      capitulos: "19/24"
   },{
       id: 2,
       titulo: "Kimetsu no Yaiba: Katanakaji no Sato-hen (S3)",
@@ -41,7 +41,7 @@ const MENU_LIST = [
       href: "/6451905df4e9edd1d8c395da",
       url: "/img/poster/kimetsunys3 - poster.jpg",
       año: "2022",
-      capitulos: "04/11"
+      capitulos: "06/11"
   },{
       id: 29,
       titulo: "Jigokuraku",
@@ -49,7 +49,7 @@ const MENU_LIST = [
       href: "/6451792645ead47cebbd86d3",
       url: "/img/poster/jigokuraku - poster.jpg",
       año: "2023",
-      capitulos: "05/13"
+      capitulos: "07/13"
   },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
