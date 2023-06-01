@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/64483ece6b0fe7a2afe7c98b",
       url: "/img/poster/drstones3 - poster.jpg",
       año: "2023",
-      capitulos: "06/11"
+      capitulos: "08/11"
   },{
       id: 27,
       titulo: "My Home Hero",
@@ -17,15 +17,15 @@ const MENU_LIST = [
       href: "/64481b585ed3f8240cb19afa",
       url: "/img/poster/myhomehero - poster.jpg",
       año: "2023",
-      capitulos: "07/12"
+      capitulos: "09/12"
   },{
       id: 26,
-      titulo: "Mashle",
+      titulo: "Oshi no Ko",
       tipo: "anime",
-      href: "/644808cbbcc9fe8b2b06cca9",
-      url: "/img/poster/mashle - poster.jpg",
+      href: "/646299c6999cb8b0e1a237dd",
+      url: "/img/poster/oshinoko - poster.jpg",
       año: "2023",
-      capitulos: "06/12"
+      capitulos: "08/11"
   },{
       id: 23,
       titulo: "Vinland Saga S2",
@@ -33,15 +33,15 @@ const MENU_LIST = [
       href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
-      capitulos: "19/24"
+      capitulos: "21/24"
   },{
       id: 2,
       titulo: "Kimetsu no Yaiba: Katanakaji no Sato-hen (S3)",
       tipo: "anime",
       href: "/6451905df4e9edd1d8c395da",
       url: "/img/poster/kimetsunys3 - poster.jpg",
-      año: "2022",
-      capitulos: "06/11"
+      año: "2023",
+      capitulos: "08/11"
   },{
       id: 29,
       titulo: "Jigokuraku",
@@ -49,7 +49,23 @@ const MENU_LIST = [
       href: "/6451792645ead47cebbd86d3",
       url: "/img/poster/jigokuraku - poster.jpg",
       año: "2023",
-      capitulos: "07/13"
+      capitulos: "08/13"
+  },{
+      id: 3,
+      titulo: "Dead Mount Death Play",
+      tipo: "anime",
+      href: "/6454107071efd4de565c3c6d",
+      url: "/img/poster/deadmdeadplay - poster.jpg",
+      año: "2023",
+      capitulos: "08/12"
+  },{
+      id: 5,
+      titulo: "Mashle",
+      tipo: "anime",
+      href: "/644808cbbcc9fe8b2b06cca9",
+      url: "/img/poster/mashle - poster.jpg",
+      año: "2023",
+      capitulos: "08/12"
   },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
@@ -195,14 +211,6 @@ const MENU_LIST = [
       año: "2022",
       capitulos: "13/13"
   },{
-      id: 8,
-      titulo: "Utawarerumono: Futari no Hakuoro",
-      tipo: "anime",
-      href: "/632b854f4180c5cd4f97ed8a",
-      url: "/img/poster/utawarerumono s3 - poster.jpg",
-      año: "2022",
-      capitulos: "14/28"
-  },{
       id: 7,
       titulo: "Lycoris Recoil",
       tipo: "anime",
@@ -218,22 +226,6 @@ const MENU_LIST = [
       url: "/img/poster/engage kiss - poster.jpg",
       año: "2022",
       capitulos: "13/13"
-  },{
-      id: 5,
-      titulo: "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
-      tipo: "anime",
-      href: "/632b854f4180c5cd4",
-      url: "/img/poster/danmachi s4 - poster.jpg",
-      año: "2022",
-      capitulos: "09/11"
-  },{
-      id: 3,
-      titulo: "Summertime Render",
-      tipo: "anime",
-      href: "/632b854f4180c5cd4",
-      url: "/img/poster/summer timerender - poster.jpg",
-      año: "2022",
-      capitulos: "22/25"
   }
 ];
 
