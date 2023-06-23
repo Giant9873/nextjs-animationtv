@@ -3,21 +3,29 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 30,
+      titulo: "Tengoku Daimakyou",
+      tipo: "anime",
+      href: "/6480e080feeec452e3a48700",
+      url: "/img/poster/tengoku daimakyou - poster.jpg",
+      año: "2023",
+      capitulos: "12/13"
+  },{
       id: 28,
       titulo: "Dr. Stone: New World (S3)",
       tipo: "anime",
       href: "/64483ece6b0fe7a2afe7c98b",
       url: "/img/poster/drstones3 - poster.jpg",
       año: "2023",
-      capitulos: "08/11"
+      capitulos: "11/11"
   },{
-      id: 27,
-      titulo: "My Home Hero",
+      id: 29,
+      titulo: "Kono Subarashii Sekai ni Bakuen wo!",
       tipo: "anime",
-      href: "/64481b585ed3f8240cb19afa",
-      url: "/img/poster/myhomehero - poster.jpg",
+      href: "/6489f779bac10d7e892d9c53",
+      url: "/img/poster/konosuba explosion - poster.jpg",
       año: "2023",
-      capitulos: "09/12"
+      capitulos: "12/12"
   },{
       id: 26,
       titulo: "Oshi no Ko",
@@ -25,7 +33,7 @@ const MENU_LIST = [
       href: "/646299c6999cb8b0e1a237dd",
       url: "/img/poster/oshinoko - poster.jpg",
       año: "2023",
-      capitulos: "08/11"
+      capitulos: "10/11"
   },{
       id: 23,
       titulo: "Vinland Saga S2",
@@ -33,7 +41,7 @@ const MENU_LIST = [
       href: "/63c87df5dc152840055f80a2",
       url: "/img/poster/vinland saga s2 - poster.jpg",
       año: "2023",
-      capitulos: "21/24"
+      capitulos: "24/24"
   },{
       id: 2,
       titulo: "Kimetsu no Yaiba: Katanakaji no Sato-hen (S3)",
@@ -41,7 +49,7 @@ const MENU_LIST = [
       href: "/6451905df4e9edd1d8c395da",
       url: "/img/poster/kimetsunys3 - poster.jpg",
       año: "2023",
-      capitulos: "08/11"
+      capitulos: "11/11"
   },{
       id: 29,
       titulo: "Jigokuraku",
@@ -49,15 +57,15 @@ const MENU_LIST = [
       href: "/6451792645ead47cebbd86d3",
       url: "/img/poster/jigokuraku - poster.jpg",
       año: "2023",
-      capitulos: "08/13"
+      capitulos: "12/13"
   },{
-      id: 3,
-      titulo: "Dead Mount Death Play",
+      id: 27,
+      titulo: "My Home Hero",
       tipo: "anime",
-      href: "/6454107071efd4de565c3c6d",
-      url: "/img/poster/deadmdeadplay - poster.jpg",
+      href: "/64481b585ed3f8240cb19afa",
+      url: "/img/poster/myhomehero - poster.jpg",
       año: "2023",
-      capitulos: "08/12"
+      capitulos: "12/12"
   },{
       id: 5,
       titulo: "Mashle",
@@ -65,7 +73,15 @@ const MENU_LIST = [
       href: "/644808cbbcc9fe8b2b06cca9",
       url: "/img/poster/mashle - poster.jpg",
       año: "2023",
-      capitulos: "08/12"
+      capitulos: "11/12"
+  },{
+      id: 3,
+      titulo: "Dead Mount Death Play",
+      tipo: "anime",
+      href: "/6454107071efd4de565c3c6d",
+      url: "/img/poster/deadmdeadplay - poster.jpg",
+      año: "2023",
+      capitulos: "11/12"
   },{
       id: 13,
       titulo: "Boku no Hero Academia S6",
