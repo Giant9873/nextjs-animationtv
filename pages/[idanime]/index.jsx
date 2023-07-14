@@ -3,6 +3,7 @@ import dbConnect from "../../lib/dbConnect";
 import Anime from "../../models/Anime";
 import Link from 'next/link';
 import Image from "next/image";
+import Favoritos from "../../components/Favoritos";
 
 const AnimePage = ({ success, error, anime }) => {
   console.log(success);
@@ -25,7 +26,7 @@ const AnimePage = ({ success, error, anime }) => {
   return (
     <div>
     <Layout title={"Descargar "+anime.titulo+" - Sub. Español - "+anime.capitulos}
-    description="Lista de Series Animadas en Español " imageog={anime.imagecap5}>
+    description="Lista de Series Animadas en Español " imageog={anime.imagecap1}>
       <div className="topspace">
         <div className="imageencabezado">
           <Image className="fondoimagen" src={anime.imagecap1} alt="1" width="100%" height="50" layout="responsive" /> <br />
@@ -283,16 +284,19 @@ const AnimePage = ({ success, error, anime }) => {
                   <h4 className="card-title center">{anime.namereco1}</h4>
                 </div>
               </div></Link>
-              <div className="card" >
+              <Link href={anime.lireco2}><div className="card" >
                 <Image className="card-img-top crop1" src={anime.imgreco2} width={600} height={600} alt="1" />
                 <div className="card-body">
                   <h4 className="card-title center">{anime.namereco2}</h4>
                 </div>
-              </div>
+              </div></Link>
               </div>
             </div>
+            <Favoritos />
           </div>
+
       </div>
+
     </Layout>
     </div>
   )

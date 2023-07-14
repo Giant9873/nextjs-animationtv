@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Layout from "../components/Layout";
 import Homecard from "./blog/homecard";
 import Homeagregados from "./blog/homeagregados";
+import Favoritos from "../components/Favoritos";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-12 col-sm-12" >
               <h1 className="titulospri"> Últimas Actualizaciones :  </h1>
-              <Homeagregados />
+              <Favoritos />
             </div>
           </div>
         </div></div>
