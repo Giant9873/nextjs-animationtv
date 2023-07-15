@@ -129,7 +129,7 @@ const MENU_LIST = [
       href: "/63cef7c228d226a37d999324",
       url: "/img/poster/nier automata v1 - poster.jpg",
       año: "2023",
-      capitulos: "08/??"
+      capitulos: "08/24"
   },{
       id: 8,
       titulo: "Buddy Daddies",
