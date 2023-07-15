@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/6480e080feeec452e3a48700",
       url: "/img/poster/tengoku daimakyou - poster.jpg",
       año: "2023",
-      capitulos: "12/13"
+      capitulos: "13/13"
   },{
       id: 23,
       titulo: "Dr. Stone: New World (S3)",
@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/646299c6999cb8b0e1a237dd",
       url: "/img/poster/oshinoko - poster.jpg",
       año: "2023",
-      capitulos: "10/11"
+      capitulos: "11/11"
   },{
       id: 20,
       titulo: "Vinland Saga S2",
@@ -57,7 +57,7 @@ const MENU_LIST = [
       href: "/6451792645ead47cebbd86d3",
       url: "/img/poster/jigokuraku - poster.jpg",
       año: "2023",
-      capitulos: "12/13"
+      capitulos: "13/13"
   },{
       id: 17,
       titulo: "My Home Hero",
@@ -73,7 +73,7 @@ const MENU_LIST = [
       href: "/644808cbbcc9fe8b2b06cca9",
       url: "/img/poster/mashle - poster.jpg",
       año: "2023",
-      capitulos: "11/12"
+      capitulos: "12/12"
   },{
       id: 15,
       titulo: "Dead Mount Death Play",
@@ -81,7 +81,7 @@ const MENU_LIST = [
       href: "/6454107071efd4de565c3c6d",
       url: "/img/poster/deadmdeadplay - poster.jpg",
       año: "2023",
-      capitulos: "11/12"
+      capitulos: "12/12"
   },{
       id: 14,
       titulo: "Boku no Hero Academia S6",
