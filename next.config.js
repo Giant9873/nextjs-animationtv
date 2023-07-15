@@ -2,7 +2,7 @@
 
 eslint: {
     ignoreDuringBuilds: true,
-},
+}
 
 
 const nextConfig = {
