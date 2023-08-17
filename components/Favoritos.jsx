@@ -22,11 +22,11 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/6451905df4e9edd1d8c395da">
+    <Link href="/64b05412562efda8c077b78f">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/kimetsunys3 - poster.jpg" width={578} height={850} alt="2"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/jkaisens2 - poster.jpg" width={578} height={850} alt="2"></Image>
           <div className="overlay">
-            <h4 className="favotext">Kimetsu no Yaiba: Katanakaji no Sato-hen (S3)</h4>
+            <h4 className="favotext">Jujutsu Kaisen S2</h4>
           </div>
         </div>
     </Link>
