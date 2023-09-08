@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/64de682efbf3f8c16ab3fc02",
       url: "/img/poster/zom100 - poster.jpg",
       año: "2023",
-      capitulos: "05/12"
+      capitulos: "08/12"
   },{
       id: 34,
       titulo: "Jujutsu Kaisen S2",
@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/64b05412562efda8c077b78f",
       url: "/img/poster/jkaisens2 - poster.jpg",
       año: "2023",
-      capitulos: "06/23"
+      capitulos: "07/23"
   },{
       id: 33,
       titulo: "Mushoku Tensei II: Isekai Ittara Honki Dasu",
@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/64aef2c253680f205a2f6705",
       url: "/img/poster/mushokus2 - poster.jpg",
       año: "2023",
-      capitulos: "06/12"
+      capitulos: "09/12"
   },{
       id: 32,
       titulo: "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/64bec2f6381eebe43319e6e1",
       url: "/img/poster/bleach23pt2 - poster.jpg",
       año: "2023",
-      capitulos: "06/13"
+      capitulos: "09/13"
   },{
       id: 31,
       titulo: "Masamune-kun no Revenge R",
@@ -41,7 +41,7 @@ const MENU_LIST = [
       href: "/64bee6d5b399be3b7c2d8ebc",
       url: "/img/poster/masamune revenge r - poster.jpg",
       año: "2023",
-      capitulos: "07/12"
+      capitulos: "10/12"
   },{
       id: 30,
       titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
@@ -49,7 +49,7 @@ const MENU_LIST = [
       href: "/64b1c621e679d70b2740a569",
       url: "/img/poster/rurouni kenshin 23 - poster.jpg",
       año: "2023",
-      capitulos: "07/24"
+      capitulos: "10/24"
   },{
       id: 29,
       titulo: "Dark Gathering",
@@ -57,7 +57,7 @@ const MENU_LIST = [
       href: "/64b9bc81f92ef68b32c6c10b",
       url: "/img/poster/dark gathering - poster.jpg",
       año: "2023",
-      capitulos: "06/25"
+      capitulos: "09/25"
   },{
       id: 28,
       titulo: "Liar Liar",
@@ -65,7 +65,7 @@ const MENU_LIST = [
       href: "/64aee69e55a9dadb5f35494d",
       url: "/img/poster/liar liar - poster.jpg",
       año: "2023",
-      capitulos: "07/12"
+      capitulos: "11/12"
   },{
       id: 27,
       titulo: "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
@@ -73,7 +73,7 @@ const MENU_LIST = [
       href: "/64b03c5e562efda8c077b786",
       url: "/img/poster/jidouhanbaiki - poster.jpg",
       año: "2023",
-      capitulos: "07/12"
+      capitulos: "10/12"
   },{
       id: 26,
       titulo: "Helck",
@@ -81,7 +81,7 @@ const MENU_LIST = [
       href: "/64bc48468e675445a6c43a15",
       url: "/img/poster/helck - poster.jpg",
       año: "2023",
-      capitulos: "06/24"
+      capitulos: "09/24"
   },{
       id: 25,
       titulo: "Lv1 Maou to One Room Yuusha",
@@ -89,7 +89,7 @@ const MENU_LIST = [
       href: "/64b9c4382ea2ad7ef7a65436",
       url: "/img/poster/lv1maou - poster.jpg",
       año: "2023",
-      capitulos: "07/12"
+      capitulos: "10/12"
   },{
       id: 24,
       titulo: "Tengoku Daimakyou",
