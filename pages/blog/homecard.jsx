@@ -17,7 +17,55 @@ const MENU_LIST = [
       href: "/64b05412562efda8c077b78f",
       url: "/img/poster/jkaisens2 - poster.jpg",
       año: "2023",
-      capitulos: "10/23"
+      capitulos: "14/23"
+  },{
+      id: 37,
+      titulo: "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
+      tipo: "anime",
+      href: "/652b0a5d8d6e45d6108cb8ef",
+      url: "/img/poster/shangrila - poster.jpg",
+      año: "2023",
+      capitulos: "04/25"
+  },{
+      id: 30,
+      titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+      tipo: "anime",
+      href: "/64b1c621e679d70b2740a569",
+      url: "/img/poster/rurouni kenshin 23 - poster.jpg",
+      año: "2023",
+      capitulos: "16/24"
+  },{
+      id: 38,
+      titulo: "Under Ninja",
+      tipo: "anime",
+      href: "/653a9f0cedccae03e06c084f",
+      url: "/img/poster/under ninja - poster.jpg",
+      año: "2023",
+      capitulos: "03/12"
+  },{
+      id: 39,
+      titulo: "Hametsu no Oukoku",
+      tipo: "anime",
+      href: "/653aa92e79c1d67422c40330",
+      url: "/img/poster/hametsu no oukoku - poster.jpg",
+      año: "2023",
+      capitulos: "03/12"
+  },{
+      id: 40,
+      titulo: "SPY x FAMILY S2",
+      tipo: "anime",
+      href: "/6514a4788fa8ca35167d0163",
+      url: "/img/poster/spy x family sea2 - poster.jpg",
+      año: "2023",
+      capitulos: "03/12"
+  },{
+      id: 41,
+      titulo: "Boushoku no Berserk",
+      tipo: "anime",
+      href: "/65398739ddd990c579a17683",
+      url: "/img/poster/bushoukonberserk - poster.jpg",
+      año: "2023",
+      capitulos: "04/12"
   },{
       id: 33,
       titulo: "Mushoku Tensei II: Isekai Ittara Honki Dasu",
@@ -43,21 +91,13 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 30,
-      titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-      tipo: "anime",
-      href: "/64b1c621e679d70b2740a569",
-      url: "/img/poster/rurouni kenshin 23 - poster.jpg",
-      año: "2023",
-      capitulos: "13/24"
-  },{
       id: 29,
       titulo: "Dark Gathering",
       tipo: "anime",
       href: "/64b9bc81f92ef68b32c6c10b",
       url: "/img/poster/dark gathering - poster.jpg",
       año: "2023",
-      capitulos: "13/25"
+      capitulos: "16/25"
   },{
       id: 36,
       titulo: "Undead Girl Murder Farce",
@@ -89,7 +129,7 @@ const MENU_LIST = [
       href: "/64bc48468e675445a6c43a15",
       url: "/img/poster/helck - poster.jpg",
       año: "2023",
-      capitulos: "13/24"
+      capitulos: "15/24"
   },{
       id: 25,
       titulo: "Lv1 Maou to One Room Yuusha",
