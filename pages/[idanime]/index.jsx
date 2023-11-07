@@ -26,7 +26,7 @@ const AnimePage = ({ success, error, anime }) => {
   return (
     <div>
     <Layout title={"Descargar "+anime.titulo+" - Sub. Español - "+anime.capitulos}
-    description="Lista de Series Animadas en Español " imageog={anime.imagecap4}>
+    description="Lista de Series Animadas en Español " imageog={anime.imagecap2}>
       <div className="topspace">
         <div className="imageencabezado">
           <Image className="fondoimagen" src={anime.imagecap1} alt="1" width="100%" height="50" layout="responsive" /> <br />
@@ -45,7 +45,7 @@ const AnimePage = ({ success, error, anime }) => {
               <ul><b>Studio : </b> {anime.studio}</ul>
               <ul><b>Estado : </b> {anime.estado}</ul>
               <ul><b>Peso :</b> {anime.peso}</ul>
-              <ul><b>Clave :</b> FreeAnimeOtakuMode</ul>
+              <ul><b>Clave para Descomprimir :</b> AnimationTV</ul>
               <ul><b>Precuela :</b> <Link href={anime.liprecuela} className="linkcss3">
                                       {anime.precuela}
                                     </Link> </ul>
