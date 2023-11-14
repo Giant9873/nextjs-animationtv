@@ -3,13 +3,77 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 39,
+      titulo: "Sousou no Frieren",
+      tipo: "anime",
+      href: "/654d4b28a45dd1106d007411",
+      url: "/img/poster/sousou no frieren - poster.jpg",
+      año: "2023",
+      capitulos: "10/28"
+  },{
       id: 38,
       titulo: "Ragna Crimson",
       tipo: "anime",
-      href: "/653c444699871aa4e127ae5c ",
+      href: "/653c444699871aa4e127ae5c",
       url: "/img/poster/ragna crimson - poster.jpg",
       año: "2023",
-      capitulos: "04/24"
+      capitulos: "07/24"
+  },{
+      id: 36,
+      titulo: "Jujutsu Kaisen S2",
+      tipo: "anime",
+      href: "/64b05412562efda8c077b78f",
+      url: "/img/poster/jkaisens2 - poster.jpg",
+      año: "2023",
+      capitulos: "17/23"
+  },{
+      id: 35,
+      titulo: "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
+      tipo: "anime",
+      href: "/652b0a5d8d6e45d6108cb8ef",
+      url: "/img/poster/shangrila - poster.jpg",
+      año: "2023",
+      capitulos: "07/25"
+  },{
+      id: 34,
+      titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+      tipo: "anime",
+      href: "/64b1c621e679d70b2740a569",
+      url: "/img/poster/rurouni kenshin 23 - poster.jpg",
+      año: "2023",
+      capitulos: "20/24"
+  },{
+      id: 33,
+      titulo: "Under Ninja",
+      tipo: "anime",
+      href: "/653a9f0cedccae03e06c084f",
+      url: "/img/poster/under ninja - poster.jpg",
+      año: "2023",
+      capitulos: "06/12"
+  },{
+      id: 32,
+      titulo: "Hametsu no Oukoku",
+      tipo: "anime",
+      href: "/653aa92e79c1d67422c40330",
+      url: "/img/poster/hametsu no oukoku - poster.jpg",
+      año: "2023",
+      capitulos: "06/12"
+  },{
+      id: 31,
+      titulo: "SPY x FAMILY S2",
+      tipo: "anime",
+      href: "/6514a4788fa8ca35167d0163",
+      url: "/img/poster/spy x family sea2 - poster.jpg",
+      año: "2023",
+      capitulos: "07/12"
+  },{
+      id: 30,
+      titulo: "Boushoku no Berserk",
+      tipo: "anime",
+      href: "/65398739ddd990c579a17683",
+      url: "/img/poster/bushoukonberserk - poster.jpg",
+      año: "2023",
+      capitulos: "07/12"
   },{
       id: 37,
       titulo: "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
@@ -18,62 +82,6 @@ const MENU_LIST = [
       url: "/img/poster/zom100 - poster.jpg",
       año: "2023",
       capitulos: "09/12"
-  },{
-      id: 36,
-      titulo: "Jujutsu Kaisen S2",
-      tipo: "anime",
-      href: "/64b05412562efda8c077b78f",
-      url: "/img/poster/jkaisens2 - poster.jpg",
-      año: "2023",
-      capitulos: "15/23"
-  },{
-      id: 35,
-      titulo: "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
-      tipo: "anime",
-      href: "/652b0a5d8d6e45d6108cb8ef",
-      url: "/img/poster/shangrila - poster.jpg",
-      año: "2023",
-      capitulos: "04/25"
-  },{
-      id: 34,
-      titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-      tipo: "anime",
-      href: "/64b1c621e679d70b2740a569",
-      url: "/img/poster/rurouni kenshin 23 - poster.jpg",
-      año: "2023",
-      capitulos: "18/24"
-  },{
-      id: 33,
-      titulo: "Under Ninja",
-      tipo: "anime",
-      href: "/653a9f0cedccae03e06c084f",
-      url: "/img/poster/under ninja - poster.jpg",
-      año: "2023",
-      capitulos: "05/12"
-  },{
-      id: 32,
-      titulo: "Hametsu no Oukoku",
-      tipo: "anime",
-      href: "/653aa92e79c1d67422c40330",
-      url: "/img/poster/hametsu no oukoku - poster.jpg",
-      año: "2023",
-      capitulos: "05/12"
-  },{
-      id: 31,
-      titulo: "SPY x FAMILY S2",
-      tipo: "anime",
-      href: "/6514a4788fa8ca35167d0163",
-      url: "/img/poster/spy x family sea2 - poster.jpg",
-      año: "2023",
-      capitulos: "05/12"
-  },{
-      id: 30,
-      titulo: "Boushoku no Berserk",
-      tipo: "anime",
-      href: "/65398739ddd990c579a17683",
-      url: "/img/poster/bushoukonberserk - poster.jpg",
-      año: "2023",
-      capitulos: "06/12"
   },{
       id: 29,
       titulo: "Mushoku Tensei II: Isekai Ittara Honki Dasu",
