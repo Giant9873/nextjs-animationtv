@@ -75,6 +75,14 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "07/12"
   },{
+      id: 40,
+      titulo: "Undead Unluck",
+      tipo: "anime",
+      href: "/654d600869f373e54756e2e1",
+      url: "/img/poster/undead unluck - poster.jpg",
+      año: "2023",
+      capitulos: "06/24"
+  },{
       id: 37,
       titulo: "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
       tipo: "anime",

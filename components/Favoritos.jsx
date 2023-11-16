@@ -33,22 +33,22 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/64de682efbf3f8c16ab3fc02">
+    <Link href="/654d4b28a45dd1106d007411">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/zom100 - poster.jpg" width={578} height={850} alt="3"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/sousou no frieren - poster.jpg" width={578} height={850} alt="3"></Image>
           <div className="overlay">
-            <h4 className="favotext">Zom 100: Zombie ni Naru made ni Shitai 100 no Koto</h4>
+            <h4 className="favotext">Sousou no Frieren</h4>
           </div>
         </div>
     </Link>
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/6480e080feeec452e3a48700">
+    <Link href="/652b0a5d8d6e45d6108cb8ef">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/tengoku daimakyou - poster.jpg" width={578} height={850} alt="4"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/shangrila - poster.jpg" width={578} height={850} alt="4"></Image>
           <div className="overlay">
-            <h4 className="favotext">Tengoku Daimakyou</h4>
+            <h4 className="favotext">Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su</h4>
           </div>
         </div>
     </Link>
