@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/654d4b28a45dd1106d007411",
       url: "/img/poster/sousou no frieren - poster.jpg",
       año: "2023",
-      capitulos: "13/28"
+      capitulos: "18/28"
   },{
       id: 38,
       titulo: "Ragna Crimson",
@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/653c444699871aa4e127ae5c",
       url: "/img/poster/ragna crimson - poster.jpg",
       año: "2023",
-      capitulos: "07/24"
+      capitulos: "12/24"
   },{
       id: 36,
       titulo: "Jujutsu Kaisen S2",
@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/64b05412562efda8c077b78f",
       url: "/img/poster/jkaisens2 - poster.jpg",
       año: "2023",
-      capitulos: "19/23"
+      capitulos: "23/23"
   },{
       id: 35,
       titulo: "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
@@ -33,7 +33,39 @@ const MENU_LIST = [
       href: "/652b0a5d8d6e45d6108cb8ef",
       url: "/img/poster/shangrila - poster.jpg",
       año: "2023",
-      capitulos: "09/25"
+      capitulos: "14/25"
+  },{
+      id: 41,
+      titulo: "Solo Leveling",
+      tipo: "anime",
+      href: "/652b0a5d8",
+      url: "/img/poster/sololeveling - poster.jpg",
+      año: "2024",
+      capitulos: "01/12"
+  },{
+      id: 42,
+      titulo: "Classroom of the Elite III",
+      tipo: "anime",
+      href: "/652b0a5d8",
+      url: "/img/poster/classroom s3 - poster.jpg",
+      año: "2024",
+      capitulos: "02/13"
+  },{
+      id: 43,
+      titulo: "Dungeon Meshi",
+      tipo: "anime",
+      href: "/652b0a5d8",
+      url: "/img/poster/dungeon meshi - poster.jpg",
+      año: "2024",
+      capitulos: "02/24"
+  },{
+      id: 44,
+      titulo: "Mashle: Shinkakusha Kouho Senbatsu Shiken-hen",
+      tipo: "anime",
+      href: "/652b0a5d8",
+      url: "/img/poster/mashle s2 - poster.jpg",
+      año: "2024",
+      capitulos: "01/12"
   },{
       id: 34,
       titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
@@ -41,7 +73,7 @@ const MENU_LIST = [
       href: "/64b1c621e679d70b2740a569",
       url: "/img/poster/rurouni kenshin 23 - poster.jpg",
       año: "2023",
-      capitulos: "20/24"
+      capitulos: "24/24"
   },{
       id: 33,
       titulo: "Under Ninja",
@@ -49,7 +81,7 @@ const MENU_LIST = [
       href: "/653a9f0cedccae03e06c084f",
       url: "/img/poster/under ninja - poster.jpg",
       año: "2023",
-      capitulos: "08/12"
+      capitulos: "12/12"
   },{
       id: 32,
       titulo: "Hametsu no Oukoku",
@@ -57,7 +89,15 @@ const MENU_LIST = [
       href: "/653aa92e79c1d67422c40330",
       url: "/img/poster/hametsu no oukoku - poster.jpg",
       año: "2023",
-      capitulos: "09/12"
+      capitulos: "12/12"
+  },{
+      id: 22,
+      titulo: "Helck",
+      tipo: "anime",
+      href: "/64bc48468e675445a6c43a15",
+      url: "/img/poster/helck - poster.jpg",
+      año: "2023",
+      capitulos: "24/24"
   },{
       id: 31,
       titulo: "SPY x FAMILY S2",
@@ -65,7 +105,7 @@ const MENU_LIST = [
       href: "/6514a4788fa8ca35167d0163",
       url: "/img/poster/spy x family sea2 - poster.jpg",
       año: "2023",
-      capitulos: "09/12"
+      capitulos: "12/12"
   },{
       id: 30,
       titulo: "Boushoku no Berserk",
@@ -73,7 +113,7 @@ const MENU_LIST = [
       href: "/65398739ddd990c579a17683",
       url: "/img/poster/bushoukonberserk - poster.jpg",
       año: "2023",
-      capitulos: "09/12"
+      capitulos: "12/12"
   },{
       id: 40,
       titulo: "Undead Unluck",
@@ -81,7 +121,7 @@ const MENU_LIST = [
       href: "/654d600869f373e54756e2e1",
       url: "/img/poster/undead unluck - poster.jpg",
       año: "2023",
-      capitulos: "09/24"
+      capitulos: "13/24"
   },{
       id: 37,
       titulo: "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
@@ -89,7 +129,7 @@ const MENU_LIST = [
       href: "/64de682efbf3f8c16ab3fc02",
       url: "/img/poster/zom100 - poster.jpg",
       año: "2023",
-      capitulos: "09/12"
+      capitulos: "12/12"
   },{
       id: 29,
       titulo: "Mushoku Tensei II: Isekai Ittara Honki Dasu",
@@ -146,14 +186,6 @@ const MENU_LIST = [
       url: "/img/poster/jidouhanbaiki - poster.jpg",
       año: "2023",
       capitulos: "12/12"
-  },{
-      id: 22,
-      titulo: "Helck",
-      tipo: "anime",
-      href: "/64bc48468e675445a6c43a15",
-      url: "/img/poster/helck - poster.jpg",
-      año: "2023",
-      capitulos: "15/24"
   },{
       id: 21,
       titulo: "Lv1 Maou to One Room Yuusha",
