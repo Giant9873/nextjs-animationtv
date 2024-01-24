@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/654d4b28a45dd1106d007411",
       url: "/img/poster/sousou no frieren - poster.jpg",
       año: "2023",
-      capitulos: "18/28"
+      capitulos: "19/28"
   },{
       id: 38,
       titulo: "Ragna Crimson",
@@ -33,15 +33,15 @@ const MENU_LIST = [
       href: "/652b0a5d8d6e45d6108cb8ef",
       url: "/img/poster/shangrila - poster.jpg",
       año: "2023",
-      capitulos: "14/25"
+      capitulos: "15/25"
   },{
       id: 41,
       titulo: "Solo Leveling",
       tipo: "anime",
-      href: "/652b0a5d8",
+      href: "/65ad9a8e2ee1f261eb618584",
       url: "/img/poster/sololeveling - poster.jpg",
       año: "2024",
-      capitulos: "01/12"
+      capitulos: "03/12"
   },{
       id: 42,
       titulo: "Classroom of the Elite III",
@@ -62,10 +62,10 @@ const MENU_LIST = [
       id: 44,
       titulo: "Mashle: Shinkakusha Kouho Senbatsu Shiken-hen",
       tipo: "anime",
-      href: "/652b0a5d8",
+      href: "/65aedac9435545c9110a98aa",
       url: "/img/poster/mashle s2 - poster.jpg",
       año: "2024",
-      capitulos: "01/12"
+      capitulos: "03/12"
   },{
       id: 34,
       titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
