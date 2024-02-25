@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/654d4b28a45dd1106d007411",
       url: "/img/poster/sousou no frieren - poster.jpg",
       año: "2023",
-      capitulos: "20/28"
+      capitulos: "24/28"
   },{
       id: 38,
       titulo: "Ragna Crimson",
@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/653c444699871aa4e127ae5c",
       url: "/img/poster/ragna crimson - poster.jpg",
       año: "2023",
-      capitulos: "12/24"
+      capitulos: "18/24"
   },{
       id: 36,
       titulo: "Jujutsu Kaisen S2",
@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/652b0a5d8d6e45d6108cb8ef",
       url: "/img/poster/shangrila - poster.jpg",
       año: "2023",
-      capitulos: "15/25"
+      capitulos: "18/25"
   },{
       id: 41,
       titulo: "Solo Leveling",
@@ -41,7 +41,7 @@ const MENU_LIST = [
       href: "/65ad9a8e2ee1f261eb618584",
       url: "/img/poster/sololeveling - poster.jpg",
       año: "2024",
-      capitulos: "04/12"
+      capitulos: "07/12"
   },{
       id: 42,
       titulo: "Classroom of the Elite III",
@@ -49,7 +49,7 @@ const MENU_LIST = [
       href: "/65b30b770ecbfa1255690a54",
       url: "/img/poster/classroom s3 - poster.jpg",
       año: "2024",
-      capitulos: "05/13"
+      capitulos: "08/13"
   },{
       id: 43,
       titulo: "Dungeon Meshi",
@@ -57,7 +57,7 @@ const MENU_LIST = [
       href: "/65b31a3bc2aff4446ab262c7",
       url: "/img/poster/dungeon meshi - poster.jpg",
       año: "2024",
-      capitulos: "04/24"
+      capitulos: "08/24"
   },{
       id: 44,
       titulo: "Mashle: Shinkakusha Kouho Senbatsu Shiken-hen",
@@ -65,7 +65,7 @@ const MENU_LIST = [
       href: "/65aedac9435545c9110a98aa",
       url: "/img/poster/mashle s2 - poster.jpg",
       año: "2024",
-      capitulos: "04/12"
+      capitulos: "07/12"
   },{
       id: 34,
       titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
