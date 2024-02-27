@@ -11,11 +11,11 @@ export default function Favoritos() {
     <h1 className="texfavorito center">LOS MÁS POPULARES</h1>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/64bec2f6381eebe43319e6e1">
+    <Link href="/65cc5ae6bcafa61cb5f8a78b">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/bleach23pt2 - poster.jpg" width={578} height={850} alt="1"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/sokushi cheat - poster.jpg" width={578} height={850} alt="1"></Image>
           <div className="overlay">
-            <h4 className="favotext">Bleach: Sennen Kessen-hen - Ketsubetsu-tan</h4>
+            <h4 className="favotext">Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.</h4>
           </div>
         </div>
     </Link>
@@ -44,11 +44,11 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/652b0a5d8d6e45d6108cb8ef">
+    <Link href="/65b30b770ecbfa1255690a54">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/shangrila - poster.jpg" width={578} height={850} alt="4"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/classroom s3 - poster.jpg" width={578} height={850} alt="4"></Image>
           <div className="overlay">
-            <h4 className="favotext">Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su</h4>
+            <h4 className="favotext">Classroom of the Elite III</h4>
           </div>
         </div>
     </Link>

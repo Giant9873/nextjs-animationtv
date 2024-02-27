@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
-      id: 39,
+      id: 36,
       titulo: "Sousou no Frieren",
       tipo: "anime",
       href: "/654d4b28a45dd1106d007411",
@@ -11,7 +11,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "24/28"
   },{
-      id: 38,
+      id: 35,
       titulo: "Ragna Crimson",
       tipo: "anime",
       href: "/653c444699871aa4e127ae5c",
@@ -19,7 +19,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "18/24"
   },{
-      id: 36,
+      id: 34,
       titulo: "Jujutsu Kaisen S2",
       tipo: "anime",
       href: "/64b05412562efda8c077b78f",
@@ -27,7 +27,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "23/23"
   },{
-      id: 35,
+      id: 33,
       titulo: "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
       tipo: "anime",
       href: "/652b0a5d8d6e45d6108cb8ef",
@@ -35,7 +35,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "18/25"
   },{
-      id: 41,
+      id: 32,
       titulo: "Solo Leveling",
       tipo: "anime",
       href: "/65ad9a8e2ee1f261eb618584",
@@ -43,7 +43,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "07/12"
   },{
-      id: 42,
+      id: 31,
       titulo: "Classroom of the Elite III",
       tipo: "anime",
       href: "/65b30b770ecbfa1255690a54",
@@ -51,7 +51,15 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "08/13"
   },{
-      id: 43,
+      id: 37,
+      titulo: "Sokushi Cheat ga Saikyou sugite, Isekai ...",
+      tipo: "anime",
+      href: "/65cc5ae6bcafa61cb5f8a78b",
+      url: "/img/poster/sokushi cheat - poster.jpg",
+      año: "2024",
+      capitulos: "08/12"
+  },{
+      id: 30,
       titulo: "Dungeon Meshi",
       tipo: "anime",
       href: "/65b31a3bc2aff4446ab262c7",
@@ -59,7 +67,15 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "08/24"
   },{
-      id: 44,
+      id: 38,
+      titulo: "Mato Seihei no Slave",
+      tipo: "anime",
+      href: "/65bbec30a76916ead91072f6",
+      url: "/img/poster/mato slave - poster.jpg",
+      año: "2024",
+      capitulos: "08/12"
+  },{
+      id: 29,
       titulo: "Mashle: Shinkakusha Kouho Senbatsu Shiken-hen",
       tipo: "anime",
       href: "/65aedac9435545c9110a98aa",
@@ -67,7 +83,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "07/12"
   },{
-      id: 34,
+      id: 28,
       titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
       tipo: "anime",
       href: "/64b1c621e679d70b2740a569",
@@ -75,7 +91,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "24/24"
   },{
-      id: 33,
+      id: 27,
       titulo: "Under Ninja",
       tipo: "anime",
       href: "/653a9f0cedccae03e06c084f",
@@ -83,7 +99,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 32,
+      id: 26,
       titulo: "Hametsu no Oukoku",
       tipo: "anime",
       href: "/653aa92e79c1d67422c40330",
@@ -91,7 +107,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 22,
+      id: 25,
       titulo: "Helck",
       tipo: "anime",
       href: "/64bc48468e675445a6c43a15",
@@ -99,7 +115,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "24/24"
   },{
-      id: 31,
+      id: 24,
       titulo: "SPY x FAMILY S2",
       tipo: "anime",
       href: "/6514a4788fa8ca35167d0163",
@@ -107,7 +123,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 30,
+      id: 23,
       titulo: "Boushoku no Berserk",
       tipo: "anime",
       href: "/65398739ddd990c579a17683",
@@ -115,7 +131,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 40,
+      id: 22,
       titulo: "Undead Unluck",
       tipo: "anime",
       href: "/654d600869f373e54756e2e1",
@@ -123,7 +139,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "13/24"
   },{
-      id: 37,
+      id: 21,
       titulo: "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
       tipo: "anime",
       href: "/64de682efbf3f8c16ab3fc02",
@@ -131,7 +147,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 29,
+      id: 20,
       titulo: "Mushoku Tensei II: Isekai Ittara Honki Dasu",
       tipo: "anime",
       href: "/64aef2c253680f205a2f6705",
@@ -139,7 +155,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 28,
+      id: 19,
       titulo: "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
       tipo: "anime",
       href: "/64bec2f6381eebe43319e6e1",
@@ -147,7 +163,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "13/13"
   },{
-      id: 27,
+      id: 18,
       titulo: "Masamune-kun no Revenge R",
       tipo: "anime",
       href: "/64bee6d5b399be3b7c2d8ebc",
@@ -155,7 +171,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 26,
+      id: 17,
       titulo: "Dark Gathering",
       tipo: "anime",
       href: "/64b9bc81f92ef68b32c6c10b",
@@ -163,7 +179,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "16/25"
   },{
-      id: 25,
+      id: 16,
       titulo: "Undead Girl Murder Farce",
       tipo: "anime",
       href: "/66500c38785436f0d2260d6c6",
@@ -171,7 +187,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "13/13"
   },{
-      id: 24,
+      id: 15,
       titulo: "Liar Liar",
       tipo: "anime",
       href: "/64aee69e55a9dadb5f35494d",
@@ -179,7 +195,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 23,
+      id: 14,
       titulo: "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
       tipo: "anime",
       href: "/64b03c5e562efda8c077b786",
@@ -187,7 +203,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 21,
+      id: 13,
       titulo: "Lv1 Maou to One Room Yuusha",
       tipo: "anime",
       href: "/64b9c4382ea2ad7ef7a65436",
@@ -195,7 +211,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 20,
+      id: 12,
       titulo: "Level 1 dakedo Unique Skill de Saikyou desu",
       tipo: "anime",
       href: "/64de6dc22b7b492a8cf3eee6",
@@ -203,7 +219,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 19,
+      id: 11,
       titulo: "Suki na Ko ga Megane wo Wasureta",
       tipo: "anime",
       href: "/64b9c438",
@@ -211,7 +227,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "13/13"
   },{
-      id: 18,
+      id: 10,
       titulo: "Eiyuu Kyoushitsu",
       tipo: "anime",
       href: "/64b9c438",
@@ -219,7 +235,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 17,
+      id: 9,
       titulo: "Tengoku Daimakyou",
       tipo: "anime",
       href: "/6480e080feeec452e3a48700",
@@ -227,7 +243,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "13/13"
   },{
-      id: 16,
+      id: 8,
       titulo: "Dr. Stone: New World (S3)",
       tipo: "anime",
       href: "/64483ece6b0fe7a2afe7c98b",
@@ -235,7 +251,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "11/11"
   },{
-      id: 15,
+      id: 7,
       titulo: "Kono Subarashii Sekai ni Bakuen wo!",
       tipo: "anime",
       href: "/6489f779bac10d7e892d9c53",
@@ -243,7 +259,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 14,
+      id: 6,
       titulo: "Oshi no Ko",
       tipo: "anime",
       href: "/646299c6999cb8b0e1a237dd",
@@ -251,7 +267,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "11/11"
   },{
-      id: 13,
+      id: 5,
       titulo: "Vinland Saga S2",
       tipo: "anime",
       href: "/63c87df5dc152840055f80a2",
@@ -259,7 +275,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "24/24"
   },{
-      id: 12,
+      id: 4,
       titulo: "Kimetsu no Yaiba: Katanakaji no Sato-hen (S3)",
       tipo: "anime",
       href: "/6451905df4e9edd1d8c395da",
@@ -267,7 +283,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "11/11"
   },{
-      id: 11,
+      id: 3,
       titulo: "Jigokuraku",
       tipo: "anime",
       href: "/6451792645ead47cebbd86d3",
@@ -275,7 +291,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "13/13"
   },{
-      id: 10,
+      id: 2,
       titulo: "My Home Hero",
       tipo: "anime",
       href: "/64481b585ed3f8240cb19afa",
@@ -283,77 +299,13 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "12/12"
   },{
-      id: 9,
+      id: 1,
       titulo: "Mashle",
       tipo: "anime",
       href: "/644808cbbcc9fe8b2b06cca9",
       url: "/img/poster/mashle - poster.jpg",
       año: "2023",
       capitulos: "12/12"
-  },{
-      id: 8,
-      titulo: "Dead Mount Death Play",
-      tipo: "anime",
-      href: "/6454107071efd4de565c3c6d",
-      url: "/img/poster/deadmdeadplay - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 7,
-      titulo: "Boku no Hero Academia S6",
-      tipo: "anime",
-      href: "/63444fee334cf9fb31f6222e",
-      url: "/img/poster/boku no hero s6 - poster.jpg",
-      año: "2022",
-      capitulos: "25/25"
-  },{
-      id: 6,
-      titulo: "Blue Lock",
-      tipo: "anime",
-      href: "/63460455ae0f72b4da36cc24",
-      url: "/img/poster/blue lock - poster 2.jpg",
-      año: "2022",
-      capitulos: "24/24"
-  },{
-      id: 5,
-      titulo: "Tondemo Skill de Isekai Hourou Meshi",
-      tipo: "anime",
-      href: "/63ec0a38b270c92f01bb1f14",
-      url: "/img/poster/tondemo skills isekai - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 4,
-      titulo: "Kage no Jitsuryokusha ni Naritakute!",
-      tipo: "anime",
-      href: "/635733fb3f6d348d451bf4a8",
-      url: "/img/poster/kage no naritakute - poster.jpg",
-      año: "2022",
-      capitulos: "20/20"
-  },{
-      id: 3,
-      titulo: "NieR: Automata Ver1.1a",
-      tipo: "anime",
-      href: "/63cef7c228d226a37d999324",
-      url: "/img/poster/nier automata v1 - poster.jpg",
-      año: "2023",
-      capitulos: "08/24"
-  },{
-      id: 2,
-      titulo: "Shinobi no Ittoki",
-      tipo: "anime",
-      href: "/635ac49b17919958e8ccb459",
-      url: "/img/poster/shinobi no ittoki - poster.jpg",
-      año: "2022",
-      capitulos: "12/12"
-  },{
-      id: 1,
-      titulo: "SPY x FAMILY Part 2",
-      tipo: "anime",
-      href: "/633b6161d381cf953bbf16a0",
-      url: "/img/poster/spy x family s2 - poster.jpg",
-      año: "2022",
-      capitulos: "13/13"
   }
 ];
 
