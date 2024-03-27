@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Favoritos() {
   return (
   <div>
-  <div className="row" >
+  <div className="separator row" >
 
     <h1 className="texfavorito center">LOS MÁS POPULARES</h1>
 
@@ -22,11 +22,11 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/64b05412562efda8c077b78f">
+    <Link href="/65ad9a8e2ee1f261eb618584">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/jkaisens2 - poster.jpg" width={578} height={850} alt="2"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/sololeveling - poster.jpg" width={578} height={850} alt="2"></Image>
           <div className="overlay">
-            <h4 className="favotext">Jujutsu Kaisen S2</h4>
+            <h4 className="favotext">Solo Leveling</h4>
           </div>
         </div>
     </Link>

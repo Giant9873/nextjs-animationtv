@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <a
         className={styles.linkcss2}
-        href="https://www.facebook.com/otakurebuild7k"
+        href="https://twitter.com/animationtv98"
         target="_blank"
         rel="noopener noreferrer"
       >

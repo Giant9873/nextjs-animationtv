@@ -27,14 +27,20 @@ const AnimePage = ({ success, error, anime }) => {
     <div>
     <Layout title={"Descargar "+anime.titulo+" - Sub. Español - "+anime.capitulos}
     description="Lista de Series Animadas en Español " imageog={anime.imagecap5}>
-      <div className="topspace">
-        <div className="imageencabezado">
-          <Image className="fondoimagen" src={anime.imagecap1} alt="1" width="100%" height="50" layout="responsive" /> <br />
-        </div>
-      <main className="container divencima">
-      <div className="">
+      <div className="topspace ">
+
+
+      <div className="container">
         <div className="row">
-          <div className="col-md-7 col-sm-6 col-12">
+          <div className="col-md-3 col-sm-6 col-12">
+            <div className="">
+              <Image className="border-gradient border-gradient-purple" src={anime.imageurl} alt="1" width="100%" height="140" layout="responsive" /> <br />
+              <p className="starpunt">{anime.estrellas}</p><br />
+              <p className="puntumyanime">Puntuación en MAL : {anime.myanimelist}</p><br />
+            </div>
+          </div>
+
+          <div className="col-md-9 col-sm-6 col-12">
               <h1 className="texttitulo">{anime.titulo}</h1>
               <hr className="hrestilo1"/><br />
               <p className="textsino">{anime.sinopsis}</p><br />
@@ -45,6 +51,7 @@ const AnimePage = ({ success, error, anime }) => {
               <ul><b>Studio : </b> {anime.studio}</ul>
               <ul><b>Estado : </b> {anime.estado}</ul>
               <ul><b>Peso :</b> {anime.peso}</ul>
+              <ul><b>Resolución :</b> {anime.calidad}</ul>
               <ul><b>Clave para Descomprimir :</b> AnimationTV</ul>
               <ul><b>Precuela :</b> <Link href={anime.liprecuela} className="linkcss3">
                                       {anime.precuela}
@@ -54,17 +61,11 @@ const AnimePage = ({ success, error, anime }) => {
                                     </Link> </ul>
             </div>
           </div>
-          <div className="col-md-1 col-sm-6 col-12"> </div>
-          <div className="col-md-3 col-sm-6 col-12">
-            <div className="">
-              <Image className="border-gradient border-gradient-purple" src={anime.imageurl} alt="1" width="100%" height="140" layout="responsive" /> <br />
-              <p className="starpunt">{anime.estrellas}</p><br />
-              <p className="puntumyanime">Puntuación en MAL : {anime.myanimelist}</p><br />
-            </div>
-          </div>
+
+
         </div>
       </div>
-      </main>
+
       </div>
 
       <div className="separator">
@@ -271,7 +272,24 @@ const AnimePage = ({ success, error, anime }) => {
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
-
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap26} />
+                  <h2 className="fontcap"> CAP 26 </h2> <a href={anime.online26} rel="noopener noreferrer" target="_blank">
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap27} />
+                  <h2 className="fontcap"> CAP 27 </h2> <a href={anime.online27} rel="noopener noreferrer" target="_blank">
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={anime.imagecap28} />
+                  <h2 className="fontcap"> CAP 28 </h2> <a href={anime.online28} rel="noopener noreferrer" target="_blank">
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
 
             </div>
             </div>
@@ -288,6 +306,12 @@ const AnimePage = ({ success, error, anime }) => {
                 <Image className="card-img-top crop1" src={anime.imgreco2} width={600} height={600} alt="1" />
                 <div className="card-body">
                   <h4 className="card-title center">{anime.namereco2}</h4>
+                </div>
+              </div></Link>
+              <Link href={anime.lireco3}><div className="card" >
+                <Image className="card-img-top crop1" src={anime.imgreco3} width={600} height={600} alt="1" />
+                <div className="card-body">
+                  <h4 className="card-title center">{anime.namereco3}</h4>
                 </div>
               </div></Link>
               </div>
