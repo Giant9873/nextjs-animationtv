@@ -33,7 +33,8 @@ export default function Home() {
           </div>
           <div className="row">
             <div className="col-md-12 col-sm-12" >
-              <h1 className="titulospri"> Últimas Actualizaciones :  </h1>
+              <h1 className="titulospri"> Películas Recién Agregadas :  </h1>
+              <Homeagregados />
               <Favoritos />
             </div>
           </div>

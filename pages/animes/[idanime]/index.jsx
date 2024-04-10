@@ -1,9 +1,9 @@
-import Layout from "../../components/Layout";
-import dbConnect from "../../lib/dbConnect";
-import Anime from "../../models/Anime";
+import Layout from "../../../components/Layout";
+import dbConnect from "../../../lib/dbConnect";
+import Anime from "../../../models/Anime";
 import Link from 'next/link';
 import Image from "next/image";
-import Favoritos from "../../components/Favoritos";
+import Favoritos from "../../../components/Favoritos";
 
 const AnimePage = ({ success, error, anime }) => {
   console.log(success);

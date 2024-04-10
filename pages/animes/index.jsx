@@ -20,7 +20,7 @@ export default function Home({ animes }) {
           {
               animes.map(({ _id, titulo, imageurl, sinopsis,  }) => (
                 <div className="col-md-2 col-sm-3 col-6" key={_id}>
-                    <Link href={`${_id}`}>
+                    <Link href={'animes/'+`${_id}`}>
                     <div className="card">
 
                       <Image className="card-img-top favoimg" src={imageurl} width={578} height={850} alt="1"></Image>

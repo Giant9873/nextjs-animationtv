@@ -49,6 +49,7 @@ const AnimeSchema = new mongoose.Schema({
       type: String,
       required: [true, "por favor ingrese la Secuela"],
   },
+  calidad: {type: String, }, estrellas: {type: String, }, myanimelist: {type: String, },
   liprecuela: {type: String, },
   lisecuela: {type: String, },
   lireco1: {type: String, },

@@ -16,17 +16,17 @@ const Newan = () => {
     capitulos: '',
     studio: '',
     estado: '',
-    peso: '',
+    peso: '',  calidad: '',
     precuela: '',
     secuela: '',
     liprecuela: '',
-    lisecuela: '', namereco1: '', namereco2: '',
+    lisecuela: '', namereco1: '', namereco2: '', namereco3: '',
     lireco1: '',
-    lireco2: '',
+    lireco2: '', lireco3: '',
     imgreco1: '',
-    imgreco2: '',
+    imgreco2: '', imgreco3: '',
     servidor1: '',
-    servidor2: '',
+    servidor2: '', myanimelist: '', estrellas: '',
     links1x1: '',
     links1x2: '',
     links1x3: '',
@@ -38,9 +38,10 @@ const Newan = () => {
     imagecap1: '', imagecap2: '', imagecap3: '', imagecap4: '', imagecap5: '', imagecap6: '', imagecap7: '', imagecap8: '', imagecap9: '', imagecap10: '', imagecap11: '', imagecap12: '',
     imagecap13: '', imagecap14: '', imagecap15: '', imagecap16: '', imagecap17: '', imagecap18: '', imagecap19: '', imagecap20: '',
     imagecap21: '', imagecap22: '', imagecap23: '', imagecap24: '', imagecap25: '',
+    imagecap26: '', imagecap27: '', imagecap28: '',
     online1: '', online2: '', online3: '', online4: '', online5: '', online6: '', online7: '', online8: '', online9: '', online10: '',
     online11: '', online12: '', online13: '', online14: '', online15: '', online16: '', online17: '', online18: '', online19: '', online20: '',
-    online21: '', online22: '', online23: '', online24: '', online25: '',
+    online21: '', online22: '', online23: '', online24: '', online25: '', online26: '', online27: '', online28: '',
   });
   const [message, setMenssage] = useState([]);
 
@@ -177,6 +178,15 @@ const Newan = () => {
         <input
             className="form-control my-2"
             type="text"
+            placeholder="Calidad o resolución"
+            name="calidad"
+            autoComplete="off"
+            value={form.calidad}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
             placeholder="Precuela"
             name="precuela"
             autoComplete="off"
@@ -231,6 +241,15 @@ const Newan = () => {
         <input
             className="form-control my-2"
             type="text"
+            placeholder="Link Recomendación 3"
+            name="lireco3"
+            autoComplete="off"
+            value={form.lireco3}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
             placeholder="Imagen Recomendación 1"
             name="imgreco1"
             autoComplete="off"
@@ -249,6 +268,15 @@ const Newan = () => {
         <input
             className="form-control my-2"
             type="text"
+            placeholder="Imagen Recomendación 3"
+            name="imgreco3"
+            autoComplete="off"
+            value={form.imgreco3}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
             placeholder="Name Recomendación 1"
             name="namereco1"
             autoComplete="off"
@@ -262,6 +290,15 @@ const Newan = () => {
             name="namereco2"
             autoComplete="off"
             value={form.namereco2}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Name Recomendación 3"
+            name="namereco3"
+            autoComplete="off"
+            value={form.namereco3}
             onChange={handleChange}
         />
         <input
@@ -582,6 +619,33 @@ const Newan = () => {
         <input
             className="form-control my-2"
             type="text"
+            placeholder="Href Imagen Cap 26"
+            name="imagecap26"
+            autoComplete="off"
+            value={form.imagecap26}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Href Imagen Cap 27"
+            name="imagecap27"
+            autoComplete="off"
+            value={form.imagecap27}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Href Imagen Cap 28"
+            name="imagecap28"
+            autoComplete="off"
+            value={form.imagecap28}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
             placeholder="Online Cap 1"
             name="online1"
             autoComplete="off"
@@ -802,6 +866,51 @@ const Newan = () => {
             name="online25"
             autoComplete="off"
             value={form.online25}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="online Cap 26"
+            name="online26"
+            autoComplete="off"
+            value={form.online26}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="online Cap 27"
+            name="online27"
+            autoComplete="off"
+            value={form.online27}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="online Cap 28"
+            name="online28"
+            autoComplete="off"
+            value={form.online28}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Puntuación MyAnimeList"
+            name="myanimelist"
+            autoComplete="off"
+            value={form.myanimelist}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Puntuación Estrellas personal"
+            name="estrellas"
+            autoComplete="off"
+            value={form.estrellas}
             onChange={handleChange}
         />
         <button className="btn btn-primary w-50" type="submit">Agregar</button>

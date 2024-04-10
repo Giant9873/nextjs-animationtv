@@ -17,8 +17,19 @@ const Newpe = () => {
     studio: '',
     director: '',
     peso: '',
+    calidad: '',
     precuela: '',
     secuela: '',
+    liprecuela: '',
+    lisecuela: '',
+    estrellas: '', myanimelist: '',
+    animeonline: '',
+    servidor1: '', servidor2: '',
+    links1x1: '', links1x2: '', links1x3: '',
+    links2x1: '', links2x2: '', links2x3: '',
+    namereco1: '', imgreco1: '', lireco1: '',
+    namereco2: '', imgreco2: '', lireco2: '',
+    namereco3: '', imgreco3: '', lireco3: '',
   });
   const [message, setMenssage] = useState([]);
 
@@ -155,6 +166,15 @@ const Newpe = () => {
         <input
             className="form-control my-2"
             type="text"
+            placeholder="Calidad o resolución del video"
+            name="calidad"
+            autoComplete="off"
+            value={form.calidad}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
             placeholder="Precuela"
             name="precuela"
             autoComplete="off"
@@ -204,6 +224,141 @@ const Newpe = () => {
             name="servidor2"
             autoComplete="off"
             value={form.servidor2}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link S1 x 01"
+            name="links1x1"
+            autoComplete="off"
+            value={form.links1x1}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link S1 x 02"
+            name="links1x2"
+            autoComplete="off"
+            value={form.links1x2}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link S1 x 03"
+            name="links1x3"
+            autoComplete="off"
+            value={form.links1x3}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link S2 x 01"
+            name="links2x1"
+            autoComplete="off"
+            value={form.links2x1}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link S2 x 02"
+            name="links2x2"
+            autoComplete="off"
+            value={form.links2x2}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link S2 x 03"
+            name="links2x3"
+            autoComplete="off"
+            value={form.links2x3}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Recomendacion 1"
+            name="namereco1"
+            autoComplete="off"
+            value={form.namereco1}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Url Imagen Recomendacion 1"
+            name="imgreco1"
+            autoComplete="off"
+            value={form.imgreco1}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link Recomendacion 1"
+            name="lireco1"
+            autoComplete="off"
+            value={form.lireco1}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Recomendacion 2"
+            name="namereco2"
+            autoComplete="off"
+            value={form.namereco2}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Url Imagen Recomendacion 2"
+            name="imgreco2"
+            autoComplete="off"
+            value={form.imgreco2}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link Recomendacion 2"
+            name="lireco2"
+            autoComplete="off"
+            value={form.lireco2}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Recomendacion 3"
+            name="namereco3"
+            autoComplete="off"
+            value={form.namereco3}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Url Imagen Recomendacion 3"
+            name="imgreco3"
+            autoComplete="off"
+            value={form.imgreco3}
+            onChange={handleChange}
+        />
+        <input
+            className="form-control my-2"
+            type="text"
+            placeholder="Link Recomendacion 3"
+            name="lireco3"
+            autoComplete="off"
+            value={form.lireco3}
             onChange={handleChange}
         />
         <button className="btn btn-primary w-50" type="submit">Agregar</button>

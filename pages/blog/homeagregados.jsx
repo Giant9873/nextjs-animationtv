@@ -3,33 +3,13 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
-      titulo: "Marvel's Hit-Monkey",
-      tipo: "occidental",
-      href: "/",
-      url: "/img/poster/hit monkey - poster.jpg",
-      año: "2021",
-      capitulo: "10"
-  },{
-      titulo: "Banana Fish",
-      tipo: "anime",
-      href: "/",
-      url: "/img/poster/banana fish - poster.jpg",
-      año: "2018",
-      capitulo: "24"
-  },{
+      id: 1,
       titulo: "Jujutsu Kaisen 0",
-      tipo: "película",
-      href: "/blog",
+      calidad: "1080p Full HD",
+      href: "/peliculas/633e15feb8840f6d067c435d",
       url: "/img/poster/jujutsu kaisen 0 - poster.jpg",
-      año: "2022",
-      capitulo: ""
-  },{
-      titulo: "Tomodachi Game",
-      tipo: "anime",
-      href: "/",
-      url: "/img/poster/tomadachi game - poster.jpg",
-      año: "2022",
-      capitulo: "12"
+      año: "2021",
+      duracion: "1 hr. 44 min."
   },
 ]
 
@@ -37,14 +17,14 @@ const Homeagregados = () => {
   return(
       <div className="row">
       {MENU_LIST.map((menu, idx) => (
-        <Link href={menu.href} key={menu.titulo}>
+        <Link href={menu.href} key={menu.id}>
         <div className="col-md-3 col-sm-3" >
           <div  >
             <div className="card noborder" >
-              <Image className="card-img-top crop2 " src={menu.url} width={600} height={400} alt="1"></Image>
+              <Image className="card-img-top crop2 " src={menu.url} width={600} height={800} alt="1"></Image>
               <div className="card-body">
-                <h5 className="card-title">{menu.titulo} - {menu.capitulo}</h5>
-                <p className="card-text">{menu.tipo} - {menu.año}</p>
+                <h5 className="card-title">{menu.titulo} - {menu.duracion}</h5>
+                <p className="card-text">{menu.calidad} - {menu.año}</p>
               </div>
             </div>
           </div>
