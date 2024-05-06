@@ -17,7 +17,16 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-sm-12" >
-              <h1 className="textprincipal"> Encuentra las mejores series y películas animadas en un solo lugar. </h1>
+              <h1 className="textprincipal">Encuentra las mejores series y películas animadas en un solo lugar. </h1>
+            </div>
+            <div className="col-md-6 col-sm-12 divbtn" >
+            <br /><br /><br />
+              <button className="btnprimavera">Primavera 2024</button>
+            </div>
+            <div className="col-md-6 col-sm-12 divbtn" >
+            <br /><br /><br />
+
+              <button className="btnverano">Verano 2024</button>
             </div>
           </div>
         </div>

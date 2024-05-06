@@ -26,9 +26,8 @@ const PeliculaPage = ({ success, error, pelicula }) => {
   return (
     <div>
     <Layout title={"Descargar "+pelicula.titulo+" - Sub. Español - "+pelicula.calidad}
-    description="Lista de Series Animadas en Español " imageog={pelicula.imageurl}>
+    description="Películas Animadas Subtituladas al Español " imageog={pelicula.imageurl}>
       <div className="topspace ">
-
 
       <div className="container">
         <div className="row">

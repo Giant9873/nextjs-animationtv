@@ -3,6 +3,22 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 3,
+      titulo: "Jujutsu Kaisen 0",
+      calidad: "1080p Full HD",
+      href: "/peliculas/633e15feb8840f6d067c435d",
+      url: "/img/poster/spider acrros spiderverse - poster.jpg",
+      año: "2021",
+      duracion: "1 hr. 44 min."
+  },{
+      id: 2,
+      titulo: "Jujutsu Kaisen 0",
+      calidad: "1080p Full HD",
+      href: "/peliculas/633e15feb8840f6d067c435d",
+      url: "/img/poster/spiderman into spiderverse - poster.jpg",
+      año: "2021",
+      duracion: "1 hr. 44 min."
+  },{
       id: 1,
       titulo: "Jujutsu Kaisen 0",
       calidad: "1080p Full HD",

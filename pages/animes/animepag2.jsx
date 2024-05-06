@@ -1,3 +1,4 @@
+
 import React from "react";
 import Layout from "../../components/Layout";
 import Link from 'next/link';
@@ -17,18 +18,18 @@ export default function Home({ animes }) {
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-sm-6 col-12">
-              <h1>Lista de Animes :</h1> <br /></div> 
+              <h1>Lista de Animes :</h1> <br /></div>
             <div className="col-md-6 col-sm-6 col-12">
-              <button className="btnnext btnselect"> 1 </button>
-              <Link href="/animes/animepag2">
-              <button className="btnnext btnnoselect" > 2 </button></Link>
+            <Link href="/animes">
+              <button className="btnnext btnnoselect"> 1 </button></Link>
+              <button className="btnnext btnselect"> 2 </button>
             </div>
           </div>
           <div className="row separator">
           {
               animes.map(({ _id, titulo, imageurl, sinopsis,  }) => (
                 <div className="col-md-2 col-sm-3 col-6" key={_id}>
-                    <Link href={'animes/'+`${_id}`}>
+                    <Link href={''+`${_id}`}>
                     <div className="card">
 
                       <Image className="card-img-top favoimg" src={imageurl} width={578} height={850} alt="1"></Image>
@@ -44,16 +45,14 @@ export default function Home({ animes }) {
               ))
           }
           </div>
-
           <div className="row center">
             <div className="col-md-12 col-sm-12 col-12">
-              <button className="btnnext btnselect"> 1 </button>
-              <Link href="/animes/animepag2">
-              <button className="btnnext btnnoselect" > 2 </button></Link>
+              <Link href="/animes">
+              <button className="btnnext btnnoselect"> 1 </button></Link>
+              <button className="btnnext btnselect" > 2 </button>
             </div>
           </div>
           </div>
-
         </main>
 
       </Layout>
@@ -67,7 +66,7 @@ export async function getServerSideProps() {
     await dbConnect();
     var mysort = { titulo: 1 };
     var findbytipo = { tipo: 'anime'};
-    const result = await Anime.find({}).sort(mysort).limit(42);
+    const result = await Anime.find({}).sort(mysort).limit(42).skip(42);
     const animes = result.map((doc) => {
       const anime = doc.toObject();
       anime._id = anime._id.toString();

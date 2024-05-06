@@ -1966,7 +1966,7 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   position: abasolute;
-  padding-top: 140px;
+  padding-top: 100px;
   padding-bottom: 280px;
 }
 
@@ -1988,4 +1988,61 @@ linkcss3:visited {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.btnprimavera{
+  border: 3px solid #04AA6D;
+  background-color: transparent;
+  color: #04AA6D;
+  padding: 25px 28px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divbtn {
+  text-align: center;
+}
+
+.btnprimavera:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.btnverano{
+  border: 3px solid #f44336;
+  background-color: transparent;
+  color: #f44336;
+  padding: 25px 28px;
+  font-size: 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnverano:hover {
+  background: #f44336;
+  color: white;
+}
+
+.btnnext{
+  border: 1px solid #f44336;
+  padding: 10px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.btnnoselect{
+  background-color: transparent;
+  color: #f44336;
+}
+
+.btnnoselect:hover {
+  background: #f44336;
+  color: white;
+}
+
+.btnselect{
+  background-color: #f44336;
+  color: white;
 }
