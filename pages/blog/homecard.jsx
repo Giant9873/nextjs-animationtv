@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/animes/65b31a3bc2aff4446ab262c7",
       url: "/img/poster/dungeon meshi - poster.jpg",
       año: "2024",
-      capitulos: "18/24"
+      capitulos: "21/24"
   },{
       id: 23,
       titulo: "Wind Breaker",
@@ -25,23 +25,23 @@ const MENU_LIST = [
       href: "/animes/66381e44f1086b447b9054d6",
       url: "/img/poster/wind breaker - poster.jpg",
       año: "2024",
-      capitulos: "05/13"
+      capitulos: "07/13"
   },{
       id: 22,
       titulo: "Kaiju No. 8",
       tipo: "primavera",
-      href: "/animes/",
+      href: "/animes/6645853fab8f0d365431b30e",
       url: "/img/poster/kaiju n8 - poster.jpg",
       año: "2024",
-      capitulos: "03/12"
+      capitulos: "06/12"
   },{
       id: 21,
       titulo: "Kono Subarashii Sekai ni Shukufuku wo! 3",
       tipo: "primavera",
-      href: "/animes/",
+      href: "/animes/6627dd1bdc46b38d04ec1eaf",
       url: "/img/poster/konosuba s3 - poster.jpg",
       año: "2024",
-      capitulos: "05/11"
+      capitulos: "07/11"
   },{
       id: 25,
       titulo: "Sentai Daishikkaku",
@@ -57,7 +57,7 @@ const MENU_LIST = [
       href: "/animes/66373898f106c96a5dfb0b31",
       url: "/img/poster/Remonster - poster.jpg",
       año: "2024",
-      capitulos: "05/12"
+      capitulos: "08/12"
   },{
       id: 27,
       titulo: "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
