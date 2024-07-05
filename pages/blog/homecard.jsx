@@ -9,7 +9,7 @@ const MENU_LIST = [
       href: "/animes/",
       url: "/img/poster/mushokus2 part2 - poster.jpg",
       año: "2024",
-      capitulos: "05/12"
+      capitulos: "12/12"
   },{
       id: 13,
       titulo: "Dungeon Meshi",
@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/animes/66381e44f1086b447b9054d6",
       url: "/img/poster/wind breaker - poster.jpg",
       año: "2024",
-      capitulos: "07/13"
+      capitulos: "13/13"
   },{
       id: 22,
       titulo: "Kaiju No. 8",
@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/animes/6645853fab8f0d365431b30e",
       url: "/img/poster/kaiju n8 - poster.jpg",
       año: "2024",
-      capitulos: "11/12"
+      capitulos: "12/12"
   },{
       id: 21,
       titulo: "Kono Subarashii Sekai ni Shukufuku wo! 3",
@@ -49,7 +49,7 @@ const MENU_LIST = [
       href: "/animes/",
       url: "/img/poster/sentai daishikkaku - poster.jpg",
       año: "2024",
-      capitulos: "10/12"
+      capitulos: "12/12"
   },{
       id: 26,
       titulo: "Re:Monster",
