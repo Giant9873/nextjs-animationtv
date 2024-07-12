@@ -22,11 +22,11 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/animes/65aedac9435545c9110a98aa">
+    <Link href="/animes/65b31a3bc2aff4446ab262c7">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/mashle s2 - poster.jpg" width={578} height={850} alt="2"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/dungeon meshi - poster.jpg" width={578} height={850} alt="2"></Image>
           <div className="overlay">
-            <h4 className="favotext">Mashle: Shinkakusha Kouho Senbatsu Shiken-hen</h4>
+            <h4 className="favotext">Dungeon Meshi</h4>
           </div>
         </div>
     </Link>
@@ -44,11 +44,11 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/animes/65ad9a8e2ee1f261eb618584">
+    <Link href="/animes/6645853fab8f0d365431b30e">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/sololeveling - poster.jpg" width={578} height={850} alt="4"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/kaiju n8 - poster.jpg" width={578} height={850} alt="4"></Image>
           <div className="overlay">
-            <h4 className="favotext">Solo Leveling</h4>
+            <h4 className="favotext">Kaiju No. 8</h4>
           </div>
         </div>
     </Link>

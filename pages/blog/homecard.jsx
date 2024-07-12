@@ -62,7 +62,7 @@ const MENU_LIST = [
       id: 27,
       titulo: "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
       tipo: "primavera",
-      href: "/animes/",
+      href: "/animes/6691a07e3f25a02862a6afeb",
       url: "/img/poster/tensei shitara dainana ouji - poster.jpg",
       año: "2024",
       capitulos: "12/12"
