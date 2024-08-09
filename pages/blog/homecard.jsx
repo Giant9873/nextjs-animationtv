@@ -3,7 +3,167 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
-      id: 24,
+      id: 1,
+      titulo: "Shikanoko Nokonoko Koshitantan",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/shikanoko nk- poster.jpg",
+      año: "2024",
+      capitulos: "06/??"
+  },{
+      id: 2,
+      titulo: "Kami no Tou: Ouji no Kikan",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/kami no tou s2 - poster.jpg",
+      año: "2024",
+      capitulos: "05/??"
+  },{
+      id: 3,
+      titulo: '"Oshi no Ko" S2',
+      tipo: "verano",
+      href: "/animes/66996aa895d49cca4f6bc50a",
+      url: "/img/poster/oshinoko s2 - poster.jpg",
+      año: "2024",
+      capitulos: "05/13"
+  },{
+      id: 4,
+      titulo: "Fairy Tail: 100-nen Quest",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/fairy tail 100 - poster.jpg",
+      año: "2024",
+      capitulos: "05/??"
+  },{
+      id: 5,
+      titulo: "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/tokidoki bosotto-russia - poster.jpg",
+      año: "2024",
+      capitulos: "06/12"
+  },{
+      id: 6,
+      titulo: "Isekai Suicide Squad",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/isekai suisicedesquad - poster.jpg",
+      año: "2024",
+      capitulos: "09/10"
+  },{
+      id: 7,
+      titulo: "Tsue to Tsurugi no Wistoria",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/tsue tsurugi wistoria - poster.jpg",
+      año: "2024",
+      capitulos: "04/??"
+  },{
+      id: 8,
+      titulo: "Gimai Seikatsu",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/gimai seikatsu - poster.jpg",
+      año: "2024",
+      capitulos: "05/12"
+  },{
+      id: 9,
+      titulo: "Isekai Shikkaku",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/isekai shikkaku - poster.jpg",
+      año: "2024",
+      capitulos: "05/12"
+  },{
+      id: 10,
+      titulo: "Boku no Tsuma wa Kanjou ga Nai",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/boku tsuma kanjou ga nai - poster.jpg",
+      año: "2024",
+      capitulos: "06/12"
+  },{
+      id: 11,
+      titulo: "Giji Harem",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/giji harem - poster.jpg",
+      año: "2024",
+      capitulos: "06/12"
+  },{
+      id: 12,
+      titulo: "Make Heroine ga Oosugiru!",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/make heroine oosugiru - poster.jpg",
+      año: "2024",
+      capitulos: "05/12"
+  },{
+      id: 13,
+      titulo: 'Hazurewaku no "Joutai Ijou Skill" de Saikyou ni Natta Ore ga Subete wo Juurin suru made',
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/joutai ijou skill - poster.jpg",
+      año: "2024",
+      capitulos: "05/12"
+  },{
+      id: 14,
+      titulo: "2.5-jigen no Ririsa",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/2.5 jigen ririsa - poster.jpg",
+      año: "2024",
+      capitulos: "05/24"
+  },{
+      id: 15,
+      titulo: 'Ore wa Subete wo "Parry" suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha ni Naritai',
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/ore wa subete parry - poster.jpg",
+      año: "2024",
+      capitulos: "05/12"
+  },{
+      id: 16,
+      titulo: "Maougun Saikyou no Majutsushi wa Ningen datta",
+      tipo: "verano",
+      href: "/animes/66b325e032be917ea1bab635",
+      url: "/img/poster/maougun saikyou no majutsushi - poster.jpg",
+      año: "2024",
+      capitulos: "07/??"
+  },{
+      id: 17,
+      titulo: "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
+      tipo: "verano",
+      href: "/animes/66ad9f3fa9f61690ae859fc3",
+      url: "/img/poster/shinmaiossan boukensha - poster.jpg",
+      año: "2024",
+      capitulos: "06/12"
+  },{
+      id: 18,
+      titulo: "NieR:Automata Ver1.1a Part 2",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/nierAutomata ver1-1a pt2 - poster.jpg",
+      año: "2024",
+      capitulos: "06/12"
+  },{
+      id: 19,
+      titulo: "Nige Jouzu no Wakagimi",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/nige jouzu no wakagimi - poster.jpg",
+      año: "2024",
+      capitulos: "06/12"
+  },{
+      id: 20,
+      titulo: "Shoushimin Series",
+      tipo: "verano",
+      href: "/animes/",
+      url: "/img/poster/shoushimin series - poster.jpg",
+      año: "2024",
+      capitulos: "06/10"
+  },{
+      id: 25,
       titulo: "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
       tipo: "primavera",
       href: "/animes/",
@@ -11,7 +171,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "12/12"
   },{
-      id: 13,
+      id: 26,
       titulo: "Dungeon Meshi",
       tipo: "anime",
       href: "/animes/65b31a3bc2aff4446ab262c7",
@@ -19,7 +179,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "24/24"
   },{
-      id: 23,
+      id: 27,
       titulo: "Wind Breaker",
       tipo: "primavera",
       href: "/animes/66381e44f1086b447b9054d6",
@@ -27,7 +187,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "13/13"
   },{
-      id: 22,
+      id: 28,
       titulo: "Kaiju No. 8",
       tipo: "primavera",
       href: "/animes/6645853fab8f0d365431b30e",
@@ -35,7 +195,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "12/12"
   },{
-      id: 21,
+      id: 29,
       titulo: "Kono Subarashii Sekai ni Shukufuku wo! 3",
       tipo: "primavera",
       href: "/animes/6627dd1bdc46b38d04ec1eaf",
@@ -43,7 +203,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "11/11"
   },{
-      id: 25,
+      id: 30,
       titulo: "Sentai Daishikkaku",
       tipo: "primavera",
       href: "/animes/",
@@ -51,7 +211,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "12/12"
   },{
-      id: 26,
+      id: 31,
       titulo: "Re:Monster",
       tipo: "primavera",
       href: "/animes/66373898f106c96a5dfb0b31",
@@ -59,7 +219,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "12/12"
   },{
-      id: 27,
+      id: 32,
       titulo: "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
       tipo: "primavera",
       href: "/animes/6691a07e3f25a02862a6afeb",
@@ -67,7 +227,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "12/12"
   },{
-      id: 20,
+      id: 33,
       titulo: "Sousou no Frieren",
       tipo: "otoño",
       href: "/animes/654d4b28a45dd1106d007411",
@@ -75,7 +235,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "28/28"
   },{
-      id: 19,
+      id: 34,
       titulo: "Ragna Crimson",
       tipo: "otoño",
       href: "/animes/653c444699871aa4e127ae5c",
@@ -83,7 +243,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "22/24"
   },{
-      id: 18,
+      id: 35,
       titulo: "Jujutsu Kaisen S2",
       tipo: "verano",
       href: "/animes/64b05412562efda8c077b78f",
@@ -91,7 +251,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "23/23"
   },{
-      id: 17,
+      id: 36,
       titulo: "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
       tipo: "otoño",
       href: "/animes/652b0a5d8d6e45d6108cb8ef",
@@ -99,7 +259,7 @@ const MENU_LIST = [
       año: "2023",
       capitulos: "25/25"
   },{
-      id: 16,
+      id: 37,
       titulo: "Solo Leveling",
       tipo: "invierno",
       href: "/animes/65ad9a8e2ee1f261eb618584",
@@ -107,7 +267,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "12/12"
   },{
-      id: 15,
+      id: 38,
       titulo: "Classroom of the Elite III",
       tipo: "invierno",
       href: "/animes/65b30b770ecbfa1255690a54",
@@ -115,7 +275,7 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "13/13"
   },{
-      id: 14,
+      id: 39,
       titulo: "Sokushi Cheat ga Saikyou sugite, Isekai ...",
       tipo: "invierno",
       href: "/animes/65cc5ae6bcafa61cb5f8a78b",
@@ -123,101 +283,13 @@ const MENU_LIST = [
       año: "2024",
       capitulos: "12/12"
   },{
-      id: 12,
+      id: 40,
       titulo: "Mato Seihei no Slave",
       tipo: "invierno",
       href: "/animes/65bbec30a76916ead91072f6",
       url: "/img/poster/mato slave - poster.jpg",
       año: "2024",
       capitulos: "12/12"
-  },{
-      id: 11,
-      titulo: "Mashle: Shinkakusha Kouho Senbatsu Shiken-hen",
-      tipo: "invierno",
-      href: "/animes/65aedac9435545c9110a98aa",
-      url: "/img/poster/mashle s2 - poster.jpg",
-      año: "2024",
-      capitulos: "12/12"
-  },{
-      id: 10,
-      titulo: "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-      tipo: "anime",
-      href: "/animes/64b1c621e679d70b2740a569",
-      url: "/img/poster/rurouni kenshin 23 - poster.jpg",
-      año: "2023",
-      capitulos: "24/24"
-  },{
-      id: 9,
-      titulo: "Under Ninja",
-      tipo: "anime",
-      href: "/animes/653a9f0cedccae03e06c084f",
-      url: "/img/poster/under ninja - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 8,
-      titulo: "Hametsu no Oukoku",
-      tipo: "anime",
-      href: "/653aa92e79c1d67422c40330",
-      url: "/img/poster/hametsu no oukoku - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 7,
-      titulo: "Helck",
-      tipo: "anime",
-      href: "/64bc48468e675445a6c43a15",
-      url: "/img/poster/helck - poster.jpg",
-      año: "2023",
-      capitulos: "24/24"
-  },{
-      id: 6,
-      titulo: "SPY x FAMILY S2",
-      tipo: "anime",
-      href: "/6514a4788fa8ca35167d0163",
-      url: "/img/poster/spy x family sea2 - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 5,
-      titulo: "Boushoku no Berserk",
-      tipo: "anime",
-      href: "/65398739ddd990c579a17683",
-      url: "/img/poster/bushoukonberserk - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 4,
-      titulo: "Undead Unluck",
-      tipo: "anime",
-      href: "/654d600869f373e54756e2e1",
-      url: "/img/poster/undead unluck - poster.jpg",
-      año: "2023",
-      capitulos: "13/24"
-  },{
-      id: 3,
-      titulo: "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
-      tipo: "anime",
-      href: "/64de682efbf3f8c16ab3fc02",
-      url: "/img/poster/zom100 - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 2,
-      titulo: "Mushoku Tensei II: Isekai Ittara Honki Dasu",
-      tipo: "anime",
-      href: "/64aef2c253680f205a2f6705",
-      url: "/img/poster/mushokus2 - poster.jpg",
-      año: "2023",
-      capitulos: "12/12"
-  },{
-      id: 1,
-      titulo: "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
-      tipo: "anime",
-      href: "/64bec2f6381eebe43319e6e1",
-      url: "/img/poster/bleach23pt2 - poster.jpg",
-      año: "2023",
-      capitulos: "13/13"
   }
 ];
 
