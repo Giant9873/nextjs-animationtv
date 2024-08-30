@@ -6,10 +6,10 @@ const MENU_LIST = [
       id: 1,
       titulo: "Shikanoko Nokonoko Koshitantan",
       tipo: "verano",
-      href: "/animes/",
+      href: "/animes/66b69067144b4cf0c8a03d05",
       url: "/img/poster/shikanoko nk- poster.jpg",
       año: "2024",
-      capitulos: "06/??"
+      capitulos: "08/??"
   },{
       id: 2,
       titulo: "Kami no Tou: Ouji no Kikan",
@@ -17,7 +17,7 @@ const MENU_LIST = [
       href: "/animes/",
       url: "/img/poster/kami no tou s2 - poster.jpg",
       año: "2024",
-      capitulos: "05/??"
+      capitulos: "08/??"
   },{
       id: 3,
       titulo: '"Oshi no Ko" S2',
@@ -25,15 +25,15 @@ const MENU_LIST = [
       href: "/animes/66996aa895d49cca4f6bc50a",
       url: "/img/poster/oshinoko s2 - poster.jpg",
       año: "2024",
-      capitulos: "05/13"
+      capitulos: "08/13"
   },{
       id: 4,
       titulo: "Fairy Tail: 100-nen Quest",
       tipo: "verano",
-      href: "/animes/",
+      href: "/animes/66d1359346cdf45a8bd59aad",
       url: "/img/poster/fairy tail 100 - poster.jpg",
       año: "2024",
-      capitulos: "05/??"
+      capitulos: "08/25"
   },{
       id: 5,
       titulo: "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
@@ -129,7 +129,7 @@ const MENU_LIST = [
       href: "/animes/66b325e032be917ea1bab635",
       url: "/img/poster/maougun saikyou no majutsushi - poster.jpg",
       año: "2024",
-      capitulos: "07/??"
+      capitulos: "09/??"
   },{
       id: 17,
       titulo: "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
@@ -137,7 +137,7 @@ const MENU_LIST = [
       href: "/animes/66ad9f3fa9f61690ae859fc3",
       url: "/img/poster/shinmaiossan boukensha - poster.jpg",
       año: "2024",
-      capitulos: "06/12"
+      capitulos: "08/12"
   },{
       id: 18,
       titulo: "NieR:Automata Ver1.1a Part 2",
