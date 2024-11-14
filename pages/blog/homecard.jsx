@@ -3,6 +3,30 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 43,
+      titulo: "Blue Lock S2 - Vs. U-20 Japan",
+      tipo: "otoño",
+      href: "/animes/24Fall/BlueLockS2",
+      url: "/img/poster/blue lock s2 - poster.jpg",
+      año: "2024",
+      capitulos: "06/14"
+  },{
+      id: 42,
+      titulo: "Dandadan",
+      tipo: "otoño",
+      href: "/animes/24Fall/Dandadan",
+      url: "/img/poster/Dandadan - poster.jpg",
+      año: "2024",
+      capitulos: "06/12"
+  },{
+      id: 41,
+      titulo: "Dragon Ball Daima",
+      tipo: "otoño",
+      href: "/animes/24Fall/DragonBallDaima",
+      url: "/img/poster/dragonballdaima - poster.jpg",
+      año: "2024",
+      capitulos: "05/20"
+  },{
       id: 1,
       titulo: "Shikanoko Nokonoko Koshitantan",
       tipo: "verano",

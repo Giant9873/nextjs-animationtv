@@ -125,8 +125,8 @@ nav{
 
 .textsino{
   color: white;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 560;
 }
 
 .texttitulo{
@@ -142,9 +142,9 @@ nav{
 
 .textdetalles{
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.35;
-  font-weight: 500;
+  font-weight: 550;
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -1945,8 +1945,8 @@ nav{
 }
 
 .starpunt{
-  font-size: 35px;
-  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
   background-image: radial-gradient(circle at 31.7% 118.3%, #fb6100 0, #f55500 25%, #ed490c 50%, #e53d14 75%, #dd301a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1955,7 +1955,6 @@ nav{
 .puntumyanime{
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
   color: white;
 }
 
@@ -1963,6 +1962,7 @@ nav{
   background-image: url("/img/home-animesbg.jpg");
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: abasolute;
@@ -2045,4 +2045,20 @@ linkcss3:visited {
 .btnselect{
   background-color: #f44336;
   color: white;
+}
+
+.blocks2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/bluelocks2banner.jpg");
+}
+.dbdaima{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/DragonBallDaima-Banner.jpg");
+}
+.dandada{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/Dandadan - banner.jpg");
+}
+.fondoimg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
