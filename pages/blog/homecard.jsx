@@ -3,13 +3,21 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 4,
+      titulo: "Fairy Tail: 100-nen Quest",
+      tipo: "verano",
+      href: "/animes/66d1359346cdf45a8bd59aad",
+      url: "/img/poster/fairy tail 100 - poster.jpg",
+      año: "2024",
+      capitulos: "19/25"
+  },{
       id: 43,
       titulo: "Blue Lock S2 - Vs. U-20 Japan",
       tipo: "otoño",
       href: "/animes/24Fall/BlueLockS2",
       url: "/img/poster/blue lock s2 - poster.jpg",
       año: "2024",
-      capitulos: "06/14"
+      capitulos: "07/14"
   },{
       id: 42,
       titulo: "Dandadan",
@@ -17,7 +25,7 @@ const MENU_LIST = [
       href: "/animes/24Fall/Dandadan",
       url: "/img/poster/Dandadan - poster.jpg",
       año: "2024",
-      capitulos: "06/12"
+      capitulos: "07/12"
   },{
       id: 41,
       titulo: "Dragon Ball Daima",
@@ -25,7 +33,7 @@ const MENU_LIST = [
       href: "/animes/24Fall/DragonBallDaima",
       url: "/img/poster/dragonballdaima - poster.jpg",
       año: "2024",
-      capitulos: "05/20"
+      capitulos: "06/20"
   },{
       id: 1,
       titulo: "Shikanoko Nokonoko Koshitantan",
@@ -50,14 +58,6 @@ const MENU_LIST = [
       url: "/img/poster/oshinoko s2 - poster.jpg",
       año: "2024",
       capitulos: "08/13"
-  },{
-      id: 4,
-      titulo: "Fairy Tail: 100-nen Quest",
-      tipo: "verano",
-      href: "/animes/66d1359346cdf45a8bd59aad",
-      url: "/img/poster/fairy tail 100 - poster.jpg",
-      año: "2024",
-      capitulos: "08/25"
   },{
       id: 5,
       titulo: "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",

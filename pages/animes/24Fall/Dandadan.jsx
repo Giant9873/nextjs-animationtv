@@ -2,10 +2,21 @@ import Layout from "../../../components/Layout";
 import Link from 'next/link';
 import Image from "next/image";
 import Favoritos from "../../../components/Favoritos";
+import Modal from "../../../components/ModalPlay";
+import { useState } from "react";
+import { Fragment } from "react";
 
 export default function Dandadan() {
+  const [showModal, setShowModal] = useState(false);
+  const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
+  const [showModal4, setShowModal4] = useState(false);
+  const [showModal5, setShowModal5] = useState(false);
+  const [showModal6, setShowModal6] = useState(false);
+  const [showModal7, setShowModal7] = useState(false);
+
   return (
-    <div>
+    <Fragment><div>
     <Layout title={"Descargar Dandadan - Sub. Español - 06/12"}
     description="Lista de Series Animadas en Español " imageog={"/img/Dandadan - banner.jpg"}>
       <div className="topspace dandada fondoimg">
@@ -23,7 +34,7 @@ export default function Dandadan() {
             <div className="textdetalles">
               <ul><b>Género :</b> Shonen / Acción / Comedia / Sobrenatural </ul>
               <ul><b>Año de Estreno : </b> Oct. 04, 2024</ul>
-              <ul><b>Capítulos : </b> 06/12</ul>
+              <ul><b>Capítulos : </b> 07/12</ul>
               <ul><b>Studio : </b> Science SARU</ul>
               <ul><b>Estado : </b> En Emisión</ul>
               <ul><b>Peso :</b> 350 MB</ul>
@@ -48,7 +59,7 @@ export default function Dandadan() {
       <div className="container"><br /><br /><br /><br />
           <div className="row">
             <div className="col-md-8 col-sm-12 col-12">
-            <h1 className="textlist">⟱ Dandadan - Enlaces de Descarga - 06/12 :</h1><br /><br /><br />
+            <h1 className="textlist">⟱ Dandadan - Enlaces de Descarga - 07/12 :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 01</h3><br />
@@ -77,41 +88,47 @@ export default function Dandadan() {
             <br /><br /><br />
 
 
-            <h1 className="textlist">☰ Dandadan - Lista de Capitulos - 06/12 :</h1><br /><br /><br />
+            <h1 className="textlist">☰ Dandadan - Lista de Capitulos - 07/12 :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-12">
                 <div className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap01.jpg"} />
-                  <h2 className="fontcap"> CAP 1 </h2> <a href={"https://filemoon.sx/d/4z5chxds0bgy"} rel="noopener noreferrer" target="_blank">
+                  <h2 className="fontcap"> CAP 1 </h2> <a onClick={()=>{setShowModal(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
                 <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap02.jpg"} />
-                  <h2 className="fontcap"> CAP 2 </h2> <a href={"https://filemoon.sx/d/3wheur1im7nt"} rel="noopener noreferrer" target="_blank">
+                  <h2 className="fontcap"> CAP 2 </h2> <a onClick={()=>{setShowModal2(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
                 <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap03.jpg"} />
-                  <h2 className="fontcap"> CAP 3 </h2> <a href={"https://filemoon.sx/d/7c4yl3bvnz9g"} rel="noopener noreferrer" target="_blank">
+                  <h2 className="fontcap"> CAP 3 </h2> <a onClick={()=>{setShowModal3(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
                 <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap04.jpg"} />
-                  <h2 className="fontcap"> CAP 4 </h2> <a href={"https://filemoon.sx/d/osera4spn11i"} rel="noopener noreferrer" target="_blank">
+                  <h2 className="fontcap"> CAP 4 </h2> <a onClick={()=>{setShowModal4(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
                 <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap05.jpg"} />
-                  <h2 className="fontcap"> CAP 5 </h2> <a href={"https://filemoon.sx/d/55q0awigp9ji"} rel="noopener noreferrer" target="_blank">
+                  <h2 className="fontcap"> CAP 5 </h2> <a onClick={()=>{setShowModal5(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
                 <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap06.jpg"} />
-                  <h2 className="fontcap"> CAP 6 </h2> <a href={"https://filemoon.sx/d/aqz4jxe2yzji"} rel="noopener noreferrer" target="_blank">
+                  <h2 className="fontcap"> CAP 6 </h2> <a onClick={()=>{setShowModal6(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap07.jpg"} />
+                  <h2 className="fontcap"> CAP 7 </h2> <a onClick={()=>{setShowModal7(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
@@ -143,11 +160,39 @@ export default function Dandadan() {
               </div>
             </div>
             <Favoritos />
+
+            <Modal isVisible={showModal} onClose={() => setShowModal(false)}
+            videourl={"https://filemoon.sx/e/4z5chxds0bgy/_A-TV_1080p__Dandadan_-_01"}>
+            </Modal>
+
+            <Modal isVisible={showModal2} onClose={() => setShowModal2(false)}
+            videourl={"https://filemoon.sx/e/3wheur1im7nt/_A-TV_1080p__Dandadan_-_02"}>
+            </Modal>
+
+            <Modal isVisible={showModal3} onClose={() => setShowModal3(false)}
+            videourl={"https://filemoon.sx/e/7c4yl3bvnz9g/_A-TV_1080p__Dandadan_-_03"}>
+            </Modal>
+
+            <Modal isVisible={showModal4} onClose={() => setShowModal4(false)}
+            videourl={"https://filemoon.sx/e/osera4spn11i/_A-TV_1080p__Dandadan_-_04"}>
+            </Modal>
+
+            <Modal isVisible={showModal5} onClose={() => setShowModal5(false)}
+            videourl={"https://filemoon.sx/e/55q0awigp9ji/_A-TV_1080p__Dandadan_-_05"}>
+            </Modal>
+
+            <Modal isVisible={showModal6} onClose={() => setShowModal6(false)}
+            videourl={"https://filemoon.sx/e/aqz4jxe2yzji/_A-TV_1080p__Dandadan_-_06"}>
+            </Modal>
+
+            <Modal isVisible={showModal7} onClose={() => setShowModal7(false)}
+            videourl={"https://filemoon.sx/e/ro4cmazel8bc/_A-TV_1080p__Dandadan_-_07"}>
+            </Modal>
           </div>
 
       </div>
 
     </Layout>
-    </div>
+    </div></Fragment>
   )
 }

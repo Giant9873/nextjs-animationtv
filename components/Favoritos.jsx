@@ -11,11 +11,11 @@ export default function Favoritos() {
     <h1 className="texfavorito center">LOS MÁS POPULARES</h1>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/animes/652b0a5d8d6e45d6108cb8ef">
+    <Link href="/animes/24Fall/Dandadan">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/shangrila - poster.jpg" width={578} height={850} alt="1"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/Dandadan - poster.jpg" width={578} height={850} alt="1"></Image>
           <div className="overlay">
-            <h4 className="favotext">Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su</h4>
+            <h4 className="favotext">Dandadan</h4>
           </div>
         </div>
     </Link>
