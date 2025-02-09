@@ -29,11 +29,12 @@ nav{
   cursor: pointer;
 }
 .nav__menu-bar div{
-  width: 40px;
+  width: 35px;
   height: 4px;
   background-color: white;
   border-radius: 2px;
 }
+
 .nav__menu-list{
   display: flex;
   flex-direction: column;
@@ -60,6 +61,7 @@ nav{
 
 .nav__link:hover{
  font-weight: bold;
+ color: #FB2576;
 }
 
 .logo{
@@ -102,7 +104,7 @@ nav{
     height: 6px;
     bottom: -16px;
     left: 0;
-    background-color: white !important;
+    background-color: #FB2576 !important;
     color: white !important;
     transition: all 0.2s;
   }
@@ -112,7 +114,9 @@ nav{
     text-decoration: none !important;
     font-size: 4px !important;
   }
-
+  .logo:hover{
+    color: #FB2576 !important;
+  }
   .nav__link:hover::before{
    width: 100%;
    color: white !important;
@@ -1872,7 +1876,6 @@ nav{
 }
 
 .card:hover {
-  
   box-shadow: #FB2576 0px 5px 15px !important;
   transform: scale(1.1);
 }
@@ -1880,7 +1883,10 @@ nav{
 
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 450px){
+  .card:hover {
+    transform: scale(1.0) !important;
+  }
   .textprincipal{
     font-size: 40px;
     padding-top: 0px;
@@ -2051,6 +2057,10 @@ linkcss3:visited {
 .btnselect{
   background-color: #f44336;
   color: white;
+}
+
+.ft100quest{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/banners/ft100quest-banner.jpg");
 }
 
 .blocks2{

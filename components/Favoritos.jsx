@@ -22,22 +22,22 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/animes/65b31a3bc2aff4446ab262c7">
+    <Link href="/animes/24Summer/FairyTail100-nenQuest">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/dungeon meshi - poster.jpg" width={578} height={850} alt="2"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/fairy tail 100 - poster.jpg" width={578} height={850} alt="2"></Image>
           <div className="overlay">
-            <h4 className="favotext">Dungeon Meshi</h4>
+            <h4 className="favotext">Fairy Tail: 100-nen Quest</h4>
           </div>
         </div>
     </Link>
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/animes/654d4b28a45dd1106d007411">
+    <Link href="/animes/24Fall/DragonBallDaima">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/sousou no frieren - poster.jpg" width={578} height={850} alt="3"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/dragonballdaima - poster.jpg" width={578} height={850} alt="3"></Image>
           <div className="overlay">
-            <h4 className="favotext">Sousou no Frieren</h4>
+            <h4 className="favotext">Dragon Ball Daima</h4>
           </div>
         </div>
     </Link>

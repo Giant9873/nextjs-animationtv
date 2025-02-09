@@ -6,7 +6,7 @@ const MENU_LIST = [
       id: 4,
       titulo: "Fairy Tail: 100-nen Quest",
       tipo: "verano",
-      href: "/animes/66d1359346cdf45a8bd59aad",
+      href: "/animes/24Summer/FairyTail100-nenQuest",
       url: "/img/poster/fairy tail 100 - poster.jpg",
       año: "2024",
       capitulos: "19/25"
@@ -25,7 +25,7 @@ const MENU_LIST = [
       href: "/animes/24Fall/Dandadan",
       url: "/img/poster/Dandadan - poster.jpg",
       año: "2024",
-      capitulos: "07/12"
+      capitulos: "12/12"
   },{
       id: 41,
       titulo: "Dragon Ball Daima",
@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/animes/24Fall/DragonBallDaima",
       url: "/img/poster/dragonballdaima - poster.jpg",
       año: "2024",
-      capitulos: "06/20"
+      capitulos: "17/20"
   },{
       id: 1,
       titulo: "Shikanoko Nokonoko Koshitantan",

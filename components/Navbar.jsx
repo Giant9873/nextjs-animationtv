@@ -13,7 +13,7 @@ const MENU_LIST = [
       href: "/peliculas"
   },{
       text: "Occidentales",
-      href: "/occidentales"
+      href: "/occidental"
   },
 ]
 

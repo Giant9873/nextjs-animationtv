@@ -6,7 +6,7 @@ import Modal from "../../../components/ModalPlay";
 import { useState } from "react";
 import { Fragment } from "react";
 
-export default function Dandadan() {
+export default function HitMonkey() {
   const [showModal, setShowModal] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
   const [showModal3, setShowModal3] = useState(false);
@@ -17,40 +17,35 @@ export default function Dandadan() {
   const [showModal8, setShowModal8] = useState(false);
   const [showModal9, setShowModal9] = useState(false);
   const [showModal10, setShowModal10] = useState(false);
-  const [showModal11, setShowModal11] = useState(false);
-  const [showModal12, setShowModal12] = useState(false);
 
   return (
     <Fragment><div>
-    <Layout title={"Descargar Dandadan - Sub. Español - 12/12"}
+    <Layout title={"Descargar Marvel's Hit-Monkey - Español Latino - 10/10"}
     description="Lista de Series Animadas en Español " imageog={"/img/Dandadan - banner.jpg"}>
       <div className="topspace dandada fondoimg">
       <div className="container ">
         <div className="row">
           <div className="col-md-12 col-sm-12 col-12"><br /><br />
-              <h1 className="texttitulo">Dandadan</h1>
+              <h1 className="texttitulo">Marvel's Hit-Monkey</h1>
               <hr className="hrestilo1"/><br />
-              <p className="textsino">Momo Ayase es una chica de secundaria que cree en los fantasmas, pero no en los extraterrestres,
-              mientras que su compañero de clase "Okarun" cree en los extraterrestres pero no en los fantasmas.
-              En una apuesta para determinar quién tiene razón, los dos deciden visitar por separado lugares asociados con lo oculto
-              y lo sobrenatural: Ayase visita al primero y el chico visita al segundo. Cuando los dos llegan a sus respectivos lugares,
-              resulta que ninguno de ellos estaba equivocado y que tanto los extraterrestres como los fantasmas existen...
-</p><br />
+              <p className="textsino">Un mono de nieve japonés, ayudado por el fantasma de un asesino estadounidense, emprende una búsqueda
+              de venganza a través del inframundo de Tokio y se convierte en el famoso "asesino de asesinos".
+              </p><br />
             <div className="textdetalles">
-              <ul><b>Género :</b> Shonen / Acción / Comedia / Sobrenatural </ul>
-              <ul><b>Año de Estreno : </b> Oct. 04, 2024</ul>
-              <ul><b>Capítulos : </b> 12/12</ul>
-              <ul><b>Studio : </b> Science SARU</ul>
-              <ul><b>Estado : </b> Finalizado / Completo</ul>
-              <ul><b>Peso :</b> 350 MB</ul>
+              <ul><b>Género :</b> Acción / Comedia Satírica / Sobrenatural / Superhéroes / Fantasía</ul>
+              <ul><b>Año de Estreno : </b> Nov. 17, 2021</ul>
+              <ul><b>Capítulos : </b> 10/10</ul>
+              <ul><b>Studio : </b> Marvel Television</ul>
+              <ul><b>Estado : </b> Finalizado</ul>
+              <ul><b>Peso :</b> 400 MB</ul>
               <ul><b>Resolución :</b> 1080p Full HD</ul>
               <ul><b>Clave para Descomprimir :</b> AnimationTV</ul>
               <ul><b>Precuela :</b> No Tiene</ul>
-              <ul><b>Secuela : </b> No Tiene</ul>
+              <ul><b>Secuela : </b> Marvel's Hit-Monkey S2</ul>
 
               <br /><br />
               <p className="starpunt">★★★★★</p>
-              <p className="puntumyanime">Puntuación en MyAnimeList : 8.61</p><br />
+              <p className="puntumyanime">Puntuación en IMDb : 7.8</p><br />
             </div>
           </div>
 
@@ -64,7 +59,7 @@ export default function Dandadan() {
       <div className="container"><br /><br /><br /><br />
           <div className="row">
             <div className="col-md-8 col-sm-12 col-12">
-            <h1 className="textlist">⟱ Dandadan - Enlaces de Descarga - 12/12 :</h1><br /><br /><br />
+            <h1 className="textlist">⟱ Marvel's Hit-Monkey - Enlaces de Descarga - 10/10 :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 01</h3><br />
@@ -74,11 +69,6 @@ export default function Dandadan() {
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 02</h3><br />
                 <a href={"https://cuty.io/aFCe3UnD5Pe"} rel="noopener noreferrer" target="_blank" >
-                <button type="button" className="btn btn-warning btn-lg"> Mediafire </button> </a>
-              </div>
-              <div className="col-md-3 col-sm-6 col-6">
-                <h3>Part. 03</h3><br />
-                <a href={"https://fc-lc.xyz/WRlhuP"} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-warning btn-lg"> Mediafire </button> </a>
               </div>
             </div><br /><br />
@@ -93,43 +83,39 @@ export default function Dandadan() {
                 <a href={"https://cuty.io/nRLK8pOv8k"} rel="noopener noreferrer" target="_blank" >
                 <button type="button" className="btn btn-danger btn-lg"> Mega </button> </a>
               </div>
-              <div className="col-md-3 col-sm-6 col-6">
-                <h3>Part. 03</h3><br />
-                <a href={"https://fc-lc.xyz/DOsaWE"} rel="noopener noreferrer" target="_blank" >
-                <button type="button" className="btn btn-danger btn-lg"> Mega </button> </a>
-              </div>
+
             </div>
             <br /><br /><br />
 
 
-            <h1 className="textlist">☰ Dandadan - Lista de Capitulos - 12/12 :</h1><br /><br /><br />
+            <h1 className="textlist">☰ Marvel's Hit-Monkey - Lista de Capitulos - 10/10 :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-12">
-                <div className="card"> <Image alt="1" width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap01.jpg"} />
+                <div className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap01.jpg"} />
                   <h2 className="fontcap"> CAP 1 </h2> <a onClick={()=>{setShowModal(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt="2" width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap02.jpg"} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap02.jpg"} />
                   <h2 className="fontcap"> CAP 2 </h2> <a onClick={()=>{setShowModal2(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt="3" width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap03.jpg"} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap03.jpg"} />
                   <h2 className="fontcap"> CAP 3 </h2> <a onClick={()=>{setShowModal3(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt="4" width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap04.jpg"} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap04.jpg"} />
                   <h2 className="fontcap"> CAP 4 </h2> <a onClick={()=>{setShowModal4(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt="5" width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap05.jpg"} />
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap05.jpg"} />
                   <h2 className="fontcap"> CAP 5 </h2> <a onClick={()=>{setShowModal5(true)}} >
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
@@ -146,36 +132,7 @@ export default function Dandadan() {
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
-              <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap08.jpg"} />
-                  <h2 className="fontcap"> CAP 8 </h2> <a onClick={()=>{setShowModal8(true)}} >
-                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap09.jpg"} />
-                  <h2 className="fontcap"> CAP 9 </h2> <a onClick={()=>{setShowModal9(true)}} >
-                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap10.jpg"} />
-                  <h2 className="fontcap"> CAP 10 </h2> <a onClick={()=>{setShowModal10(true)}} >
-                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap11.jpg"} />
-                  <h2 className="fontcap"> CAP 11 </h2> <a onClick={()=>{setShowModal11(true)}} >
-                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12">
-                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dandadancap12.jpg"} />
-                  <h2 className="fontcap"> CAP 12 </h2> <a onClick={()=>{setShowModal12(true)}} >
-                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
-                </div>
-              </div>
+
 
             </div>
             </div>
@@ -230,26 +187,6 @@ export default function Dandadan() {
 
             <Modal isVisible={showModal7} onClose={() => setShowModal7(false)}
             videourl={"https://filemoon.sx/e/ro4cmazel8bc/_A-TV_1080p__Dandadan_-_07"}>
-            </Modal>
-
-            <Modal isVisible={showModal8} onClose={() => setShowModal8(false)}
-            videourl={"https://filemoon.to/e/ytmtb8qiqcjq"}>
-            </Modal>
-
-            <Modal isVisible={showModal9} onClose={() => setShowModal9(false)}
-            videourl={"https://filemoon.to/e/806bov7zynna"}>
-            </Modal>
-
-            <Modal isVisible={showModal10} onClose={() => setShowModal10(false)}
-            videourl={"https://filemoon.to/e/jii1xk186en4"}>
-            </Modal>
-
-            <Modal isVisible={showModal11} onClose={() => setShowModal11(false)}
-            videourl={"https://filemoon.to/e/cw1b32cqy4f4"}>
-            </Modal>
-
-            <Modal isVisible={showModal12} onClose={() => setShowModal12(false)}
-            videourl={"https://filemoon.to/e/yf5otrlbl6hw"}>
             </Modal>
           </div>
 
