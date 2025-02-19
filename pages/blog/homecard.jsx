@@ -3,6 +3,22 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 38,
+      titulo: "Solo Leveling S2: Arise from the Shadow",
+      tipo: "invierno",
+      href: "/animes/25Winter/SoloLevelingS2",
+      url: "/img/poster/solo s2 - poster.jpg",
+      año: "2025",
+      capitulos: "07/13"
+  },{
+      id: 39,
+      titulo: "Sakamoto Days",
+      tipo: "invierno",
+      href: "/animes/25Winter/SakamotoDays",
+      url: "/img/poster/sakamoto days - poster.jpg",
+      año: "2025",
+      capitulos: "07/11"
+  },{
       id: 4,
       titulo: "Fairy Tail: 100-nen Quest",
       tipo: "verano",
@@ -33,7 +49,7 @@ const MENU_LIST = [
       href: "/animes/24Fall/DragonBallDaima",
       url: "/img/poster/dragonballdaima - poster.jpg",
       año: "2024",
-      capitulos: "17/20"
+      capitulos: "18/20"
   },{
       id: 1,
       titulo: "Shikanoko Nokonoko Koshitantan",
@@ -288,30 +304,6 @@ const MENU_LIST = [
       tipo: "invierno",
       href: "/animes/65ad9a8e2ee1f261eb618584",
       url: "/img/poster/sololeveling - poster.jpg",
-      año: "2024",
-      capitulos: "12/12"
-  },{
-      id: 38,
-      titulo: "Classroom of the Elite III",
-      tipo: "invierno",
-      href: "/animes/65b30b770ecbfa1255690a54",
-      url: "/img/poster/classroom s3 - poster.jpg",
-      año: "2024",
-      capitulos: "13/13"
-  },{
-      id: 39,
-      titulo: "Sokushi Cheat ga Saikyou sugite, Isekai ...",
-      tipo: "invierno",
-      href: "/animes/65cc5ae6bcafa61cb5f8a78b",
-      url: "/img/poster/sokushi cheat - poster.jpg",
-      año: "2024",
-      capitulos: "12/12"
-  },{
-      id: 40,
-      titulo: "Mato Seihei no Slave",
-      tipo: "invierno",
-      href: "/animes/65bbec30a76916ead91072f6",
-      url: "/img/poster/mato slave - poster.jpg",
       año: "2024",
       capitulos: "12/12"
   }

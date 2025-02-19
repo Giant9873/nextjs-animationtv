@@ -2064,13 +2064,19 @@ linkcss3:visited {
 }
 
 .blocks2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/bluelocks2banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/banners/bluelocks2banner.jpg");
 }
 .dbdaima{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/DragonBallDaima-Banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/banners/DragonBallDaima-Banner.jpg");
 }
 .dandada{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/Dandadan - banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/banners/Dandadan - banner.jpg");
+}
+.sakadays{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/banners/Sakadays - banner.jpg");
+}
+.sololevs2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/img/banners/SoloLevS2 - banner.jpg");
 }
 .fondoimg{
   background-position: center;

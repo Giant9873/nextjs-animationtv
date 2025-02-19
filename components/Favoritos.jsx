@@ -44,11 +44,11 @@ export default function Favoritos() {
     </div>
 
     <div className="col-md-3 col-sm-3 col-6" >
-    <Link href="/animes/6645853fab8f0d365431b30e">
+    <Link href="/animes/25Winter/SoloLevelingS2">
         <div className="card">
-          <Image className="card-img-top favoimg" src="/img/poster/kaiju n8 - poster.jpg" width={578} height={850} alt="4"></Image>
+          <Image className="card-img-top favoimg" src="/img/poster/solo s2 - poster.jpg" width={578} height={850} alt="4"></Image>
           <div className="overlay">
-            <h4 className="favotext">Kaiju No. 8</h4>
+            <h4 className="favotext">Solo Leveling S2: Arise from the Shadow</h4>
           </div>
         </div>
     </Link>
