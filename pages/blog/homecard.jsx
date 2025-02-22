@@ -33,7 +33,7 @@ const MENU_LIST = [
       href: "/animes/24Summer/FairyTail100-nenQuest",
       url: "/img/poster/fairy tail 100 - poster.jpg",
       año: "2024",
-      capitulos: "19/25"
+      capitulos: "25/25"
   },{
       id: 43,
       titulo: "Blue Lock S2 - Vs. U-20 Japan",
