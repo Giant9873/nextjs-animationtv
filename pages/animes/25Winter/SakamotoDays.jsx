@@ -19,7 +19,7 @@ export default function Dandadan() {
   return (
     <Fragment><div>
     <Layout title={"Descargar Sakamoto Days - Sub. Español - 07/11"}
-    description="Lista de Series Animadas en Español " imageog={"/img/Dandadan - banner.jpg"}>
+    description="Lista de Series Animadas en Español " imageog={"/img/banners/Sakadays - banner.jpg"}>
       <div className="topspace sakadays fondoimg">
       <div className="container ">
         <div className="row">

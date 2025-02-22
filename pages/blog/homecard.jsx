@@ -3,6 +3,14 @@ import Link from "next/link";
 
 const MENU_LIST = [
   {
+      id: 41,
+      titulo: "Dragon Ball Daima",
+      tipo: "otoño",
+      href: "/animes/24Fall/DragonBallDaima",
+      url: "/img/poster/dragonballdaima - poster.jpg",
+      año: "2024",
+      capitulos: "19/20"
+  },{
       id: 38,
       titulo: "Solo Leveling S2: Arise from the Shadow",
       tipo: "invierno",
@@ -33,7 +41,7 @@ const MENU_LIST = [
       href: "/animes/24Fall/BlueLockS2",
       url: "/img/poster/blue lock s2 - poster.jpg",
       año: "2024",
-      capitulos: "07/14"
+      capitulos: "14/14"
   },{
       id: 42,
       titulo: "Dandadan",
@@ -42,14 +50,6 @@ const MENU_LIST = [
       url: "/img/poster/Dandadan - poster.jpg",
       año: "2024",
       capitulos: "12/12"
-  },{
-      id: 41,
-      titulo: "Dragon Ball Daima",
-      tipo: "otoño",
-      href: "/animes/24Fall/DragonBallDaima",
-      url: "/img/poster/dragonballdaima - poster.jpg",
-      año: "2024",
-      capitulos: "18/20"
   },{
       id: 1,
       titulo: "Shikanoko Nokonoko Koshitantan",

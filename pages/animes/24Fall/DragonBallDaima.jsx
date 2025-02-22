@@ -25,11 +25,12 @@ export default function DragonBallDaima() {
   const [showModal16, setShowModal16] = useState(false);
   const [showModal17, setShowModal17] = useState(false);
   const [showModal18, setShowModal18] = useState(false);
+  const [showModal19, setShowModal19] = useState(false);
 
   return (
     <Fragment><div>
-    <Layout title={"Descargar Dragon Ball Daima - Sub. Español - 18/20"}
-    description="Lista de Series Animadas en Español " imageog={"/img/DragonBallDaima-Banner.jpg"}>
+    <Layout title={"Descargar Dragon Ball Daima - Sub. Español - 19/20"}
+    description="Lista de Series Animadas en Español " imageog={"/img/banners/DragonBallDaima-Banner.jpg"}>
       <div className="topspace dbdaima fondoimg">
       <div className="container ">
         <div className="row">
@@ -42,7 +43,7 @@ export default function DragonBallDaima() {
             <div className="textdetalles">
               <ul><b>Género :</b> Shonen / Acción / Aventura / Comedia / Fantasía </ul>
               <ul><b>Año de Estreno : </b> Oct. 11, 2024</ul>
-              <ul><b>Capítulos : </b> 18/20</ul>
+              <ul><b>Capítulos : </b> 19/20</ul>
               <ul><b>Studio : </b> Toei Animation</ul>
               <ul><b>Estado : </b> En Emisión</ul>
               <ul><b>Peso :</b> 350 MB</ul>
@@ -67,7 +68,7 @@ export default function DragonBallDaima() {
       <div className="container"><br /><br /><br /><br />
           <div className="row">
             <div className="col-md-8 col-sm-12 col-12">
-            <h1 className="textlist">⟱ Dragon Ball Daima - Enlaces de Descarga - 18/20 :</h1><br /><br /><br />
+            <h1 className="textlist">⟱ Dragon Ball Daima - Enlaces de Descarga - 19/20 :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 01</h3><br />
@@ -115,7 +116,7 @@ export default function DragonBallDaima() {
             <br /><br /><br />
 
 
-            <h1 className="textlist">☰ Dragon Ball Daima - Lista de Capitulos - 18/20 :</h1><br /><br />
+            <h1 className="textlist">☰ Dragon Ball Daima - Lista de Capitulos - 19/20 :</h1><br /><br />
             <h3 className="textlist">**Al abrir esperar unos segundos a que cargue el reproductor.</h3><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-12">
@@ -226,6 +227,12 @@ export default function DragonBallDaima() {
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/dbdaimacap19.jpg"} />
+                  <h2 className="fontcap"> CAP 19 </h2> <a onClick={()=>{setShowModal19(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
 
             </div>
             </div>
@@ -238,7 +245,7 @@ export default function DragonBallDaima() {
                   <h4 className="card-title center">Dandadan</h4>
                 </div>
               </div></Link>
-              <Link href={"/"}><div className="card" >
+              <Link href={"/animes/25Winter/SoloLevelingS2"}><div className="card" >
                 <Image className="card-img-top crop1" src={"/img/poster/solo s2 - poster.jpg"} width={600} height={600} alt="1" />
                 <div className="card-body">
                   <h4 className="card-title center">Solo Leveling S2</h4>
@@ -324,6 +331,10 @@ export default function DragonBallDaima() {
 
             <Modal isVisible={showModal18} onClose={() => setShowModal18(false)}
             videourl={"https://filemoon.to/e/nmbmogq8gvhj/_A-TV_1080p__Dragon_Ball_Daima_-_18"}>
+            </Modal>
+
+            <Modal isVisible={showModal19} onClose={() => setShowModal19(false)}
+            videourl={"https://filemoon.to/d/ln01vk2gmzog/_A-TV_1080p__Dragon_Ball_Daima_-_19"}>
             </Modal>
 
           </div>

@@ -26,11 +26,17 @@ export default function FairyTail100Quest() {
   const [showModal17, setShowModal17] = useState(false);
   const [showModal18, setShowModal18] = useState(false);
   const [showModal19, setShowModal19] = useState(false);
+  const [showModal20, setShowModal20] = useState(false);
+  const [showModal21, setShowModal21] = useState(false);
+  const [showModal22, setShowModal22] = useState(false);
+  const [showModal23, setShowModal23] = useState(false);
+  const [showModal24, setShowModal24] = useState(false);
+  const [showModal25, setShowModal25] = useState(false);
 
   return (
     <Fragment><div>
-    <Layout title={"Descargar Fairy Tail: 100-nen Quest - Sub. Español - 19/25"}
-    description="Lista de Series Animadas en Español " imageog={"/img/Dandadan - banner.jpg"}>
+    <Layout title={"Descargar Fairy Tail: 100-nen Quest - Sub. Español - 25/25"}
+    description="Lista de Series Animadas en Español " imageog={"/img/banners/ft100quest-banner.jpg"}>
       <div className="topspace ft100quest fondoimg">
       <div className="container ">
         <div className="row">
@@ -49,7 +55,7 @@ export default function FairyTail100Quest() {
             <div className="textdetalles">
               <ul><b>Género :</b> Shonen / Acción / Comedia / Aventura / Fantasía </ul>
               <ul><b>Año de Estreno : </b> Jul. 07, 2024</ul>
-              <ul><b>Capítulos : </b> 19/25</ul>
+              <ul><b>Capítulos : </b> 25/25</ul>
               <ul><b>Studio : </b> J.C.Staff</ul>
               <ul><b>Estado : </b> En Emisión</ul>
               <ul><b>Peso :</b> 350 MB</ul>
@@ -74,7 +80,7 @@ export default function FairyTail100Quest() {
       <div className="container"><br /><br /><br /><br />
           <div className="row">
             <div className="col-md-8 col-sm-12 col-12">
-            <h1 className="textlist">⟱ Fairy Tail: 100-nen Quest - Enlaces de Descarga - 19/25 :</h1><br /><br /><br />
+            <h1 className="textlist">⟱ Fairy Tail: 100-nen Quest - Enlaces de Descarga - 25/25 :</h1><br /><br /><br />
             <div className="row">
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 01</h3><br />
@@ -101,7 +107,7 @@ export default function FairyTail100Quest() {
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 01</h3><br />
                 <a href={"https://cuty.io/P8KQPiWyvFSf"} rel="noopener noreferrer" target="_blank">
-                <button type="button" className="btn btn-danger btn-lg center"> Mega </button> </a> <br /><br />
+                <button type="button" className="btn btn-danger btn-lg"> Mega </button> </a> <br /><br />
               </div>
               <div className="col-md-3 col-sm-6 col-6">
                 <h3>Part. 02</h3><br />
@@ -238,6 +244,42 @@ export default function FairyTail100Quest() {
                   <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
                 </div>
               </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/ft100cap20.jpg"} />
+                  <h2 className="fontcap"> CAP 20 </h2> <a onClick={()=>{setShowModal20(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/ft100cap21.jpg"} />
+                  <h2 className="fontcap"> CAP 21 </h2> <a onClick={()=>{setShowModal21(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/ft100cap22.jpg"} />
+                  <h2 className="fontcap"> CAP 22 </h2> <a onClick={()=>{setShowModal22(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/ft100cap23.jpg"} />
+                  <h2 className="fontcap"> CAP 23 </h2> <a onClick={()=>{setShowModal23(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/ft100cap24.jpg"} />
+                  <h2 className="fontcap"> CAP 24 </h2> <a onClick={()=>{setShowModal24(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12">
+                <div  className="card"> <Image alt=" " width="100%" height="56" layout="responsive" src={"/img/caps/ft100cap25.jpg"} />
+                  <h2 className="fontcap"> CAP 25 </h2> <a onClick={()=>{setShowModal25(true)}} >
+                  <div className="overlay"> <h2 className="fontgr">‣ </h2> </div> </a>
+                </div>
+              </div>
 
             </div>
             </div>
@@ -285,6 +327,12 @@ export default function FairyTail100Quest() {
             <Modal isVisible={showModal17} onClose={() => setShowModal17(false)} videourl={"https://filemoon.sx/e/5rcusi134n4b/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_17"} />
             <Modal isVisible={showModal18} onClose={() => setShowModal18(false)} videourl={"https://filemoon.sx/e/4m53x69lf9tt/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_18"} />
             <Modal isVisible={showModal19} onClose={() => setShowModal19(false)} videourl={"https://filemoon.sx/e/evn9rhbvqbo3/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_19"} />
+            <Modal isVisible={showModal20} onClose={() => setShowModal20(false)} videourl={"https://filemoon.to/e/u3hk5m142w4c/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_20"} />
+            <Modal isVisible={showModal21} onClose={() => setShowModal21(false)} videourl={"https://filemoon.to/e/vj5tca6vcjde/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_21"} />
+            <Modal isVisible={showModal22} onClose={() => setShowModal22(false)} videourl={"https://filemoon.to/e/idk7wsidzt4n/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_22"} />
+            <Modal isVisible={showModal23} onClose={() => setShowModal23(false)} videourl={"https://filemoon.to/e/9nxc1lolj7qp/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_23"} />
+            <Modal isVisible={showModal24} onClose={() => setShowModal24(false)} videourl={"https://filemoon.to/e/9hqoshu0bcnc/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_24"} />
+            <Modal isVisible={showModal25} onClose={() => setShowModal25(false)} videourl={"https://filemoon.to/e/rp5ll12ohl6l/_A-TV_1080p__Fairy_Tail_-_100-nen_Quest_-_25_END"} />
 
           </div>
 

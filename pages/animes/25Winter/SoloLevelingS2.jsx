@@ -19,7 +19,7 @@ export default function Dandadan() {
   return (
     <Fragment><div>
     <Layout title={"Descargar Solo Leveling S2: Arise from the Shadow - Sub. Español - 07/11"}
-    description="Lista de Series Animadas en Español " imageog={"/img/Dandadan - banner.jpg"}>
+    description="Lista de Series Animadas en Español " imageog={"/img/banners/SoloLevS2 - banner.jpg"}>
       <div className="topspace sololevs2 fondoimg">
       <div className="container ">
         <div className="row">
@@ -183,11 +183,11 @@ export default function Dandadan() {
             </Modal>
 
             <Modal isVisible={showModal6} onClose={() => setShowModal6(false)}
-            videourl={"https://filemoon.to/d/gxt1rd0t3qk6/_A-TV_1080p__Solo_Leveling_S2_-_Arise_from_the_Shadow_-_06"}>
+            videourl={"https://filemoon.to/e/gxt1rd0t3qk6/_A-TV_1080p__Solo_Leveling_S2_-_Arise_from_the_Shadow_-_06"}>
             </Modal>
 
             <Modal isVisible={showModal7} onClose={() => setShowModal7(false)}
-            videourl={"https://filemoon.to/d/fd752jadp8fu/_A-TV_1080p__Solo_Leveling_S2_-_Arise_from_the_Shadow_-_07"}>
+            videourl={"https://filemoon.to/e/fd752jadp8fu/_A-TV_1080p__Solo_Leveling_S2_-_Arise_from_the_Shadow_-_07"}>
             </Modal>
 
 

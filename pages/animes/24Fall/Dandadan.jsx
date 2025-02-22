@@ -23,7 +23,7 @@ export default function Dandadan() {
   return (
     <Fragment><div>
     <Layout title={"Descargar Dandadan - Sub. Español - 12/12"}
-    description="Lista de Series Animadas en Español " imageog={"/img/Dandadan - banner.jpg"}>
+    description="Lista de Series Animadas en Español " imageog={"/img/banners/Dandadan - banner.jpg"}>
       <div className="topspace dandada fondoimg">
       <div className="container ">
         <div className="row">
